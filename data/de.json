@@ -16,25 +16,25 @@
   "home": {
     "eyebrow": "Eine kulinarische Reise",
     "heading": "Willkommen bei Golden Crane",
-    "introduction": "Ein fiktives Asian-Fusion-Konzept in Magdeburg – inspiriert von Aromen und Reisezielen in Asien.",
+    "introduction": "Asian Fusion in Magdeburg – inspiriert von Aromen und Reisezielen in Asien.",
     "menuLink": "Speisekarte entdecken",
     "aboutLink": "Das Konzept kennenlernen",
     "conceptHeading": "Vielfalt in Balance",
-    "conceptIntroduction": "Golden Crane verbindet Ideen aus unterschiedlichen asiatischen Küchen zu einer kreativen Demokarte. Die Namen laden zu einer gedanklichen Reise ein.",
+    "conceptIntroduction": "Golden Crane verbindet Ideen aus unterschiedlichen asiatischen Küchen zu einer kreativen Speisekarte. Die Namen laden zu einer kulinarischen Reise ein.",
     "wokHeading": "Wok & Würze",
-    "wokDescription": "Nudeln, Reis und Gemüse bilden die Grundlage vieler herzhaft gewürzter Gerichte in dieser fiktiven Karte.",
+    "wokDescription": "Nudeln, Reis und Gemüse bilden die Grundlage vieler herzhaft gewürzter Gerichte auf unserer Karte.",
     "sushiHeading": "Sushi & Vielfalt",
     "sushiDescription": "Maki, Nigiri und kleine Auswahlteller bringen unterschiedliche Formen, Füllungen und Texturen zusammen.",
     "aromaHeading": "Aroma & Balance",
     "aromaDescription": "Ingwer, Kräuter und milde bis pikante Saucen geben den Menüideen abwechslungsreiche Akzente.",
     "highlightsHeading": "Einblicke in die Speisekarte",
-    "highlightsIntroduction": "Entdecke ausgewählte Kategorien und ihre fiktiven Gerichte.",
+    "highlightsIntroduction": "Entdecke ausgewählte Kategorien und ihre asiatisch inspirierten Gerichte.",
     "allCategoriesLink": "Alle 12 Kategorien ansehen",
-    "imageCaption": "Atmosphäre als Inspiration – kein realer Standort von Golden Crane."
+    "imageCaption": "Atmosphäre als Inspiration."
   },
   "menu": {
     "heading": "Unsere Speisekarte",
-    "introduction": "153 fiktive Gerichte in zwölf Kategorien – inspiriert von asiatischen Reisezielen und kulinarischer Vielfalt.",
+    "introduction": "153 Gerichte in zwölf Kategorien – inspiriert von asiatischen Reisezielen und kulinarischer Vielfalt.",
     "categoryLink": "Kategorie ansehen",
     "backToOverview": "Zurück zur Speisekarte",
     "categoryNavigation": "Menükategorien",
@@ -48,46 +48,48 @@
   "about": {
     "eyebrow": "Das Konzept",
     "heading": "Über Golden Crane",
-    "introduction": "Golden Crane ist ein fiktives Asian-Fusion-Restaurantkonzept mit Magdeburg als gedachtem Standort. Es wurde als Webentwicklungs-Demoprojekt gestaltet.",
+    "introduction": "Golden Crane verbindet Asian Fusion mit einer ruhigen Restaurantästhetik in Magdeburg.",
     "philosophyHeading": "Eine Idee, viele Einflüsse",
-    "philosophyDescription": "Die Demokarte verbindet vertraute Gerichtstypen mit kreativen Namen asiatischer Städte und Landschaften. Sie ist eine gestalterische Interpretation, keine Sammlung authentischer regionaler Rezepte.",
+    "philosophyDescription": "Unsere Speisekarte verbindet vertraute Gerichtstypen mit kreativen Namen asiatischer Städte und Landschaften. Unterschiedliche kulinarische Einflüsse finden hier zusammen.",
     "valuesHeading": "Drei Leitgedanken des Konzepts",
     "varietyHeading": "Kulinarische Vielfalt",
-    "varietyDescription": "Zwölf Kategorien zeigen die Bandbreite der fiktiven Menüideen – von kleinen Vorspeisen bis zu süßen Abschlüssen.",
+    "varietyDescription": "Zwölf Kategorien zeigen die Bandbreite unserer Speisekarte – von kleinen Vorspeisen bis zu süßen Abschlüssen.",
     "balanceHeading": "Balance & Klarheit",
     "balanceDescription": "Aromen, Bilder und kurze Beschreibungen sollen eine übersichtliche, einladende Speisekarte ergeben.",
     "atmosphereHeading": "Eine ruhige Gestaltung",
     "atmosphereDescription": "Das Konzept setzt auf eine zurückhaltende Restaurantästhetik und Raum für die einzelnen Gerichte.",
     "craneHeading": "Der Kranich als Gestaltungsmotiv",
-    "craneDescription": "Der Name Golden Crane und das Kranichmotiv stehen in diesem Projekt für Leichtigkeit, Ruhe und die Idee einer Reise.",
-    "menuHeading": "Die Menüideen entdecken",
+    "craneDescription": "Der Name Golden Crane und das Kranichmotiv stehen für Leichtigkeit, Ruhe und die Idee einer Reise.",
+    "menuHeading": "Unsere Speisekarte entdecken",
     "menuIntroduction": "Lerne die zwölf Kategorien und ihre asiatisch inspirierten Hauskreationen kennen.",
     "menuLink": "Zur Speisekarte"
   },
   "contact": {
-    "heading": "Standort & Projektinformation",
-    "locationHeading": "Magdeburg als Inspiration",
+    "heading": "Standort",
+    "locationHeading": "Magdeburg",
     "location": "Magdeburg, Deutschland",
-    "description": "Magdeburg ist der gedachte Standort dieses Restaurantkonzepts. Golden Crane hat keine realen Geschäftsräume oder Kontaktangebote.",
+    "description": "Asian Fusion in Magdeburg, inspiriert von der kulinarischen Vielfalt Asiens.",
     "mapLink": "Magdeburg auf der Karte ansehen",
-    "mapTitle": "Karte von Magdeburg – kein Restaurantstandort",
-    "projectHeading": "Ein Demoprojekt"
+    "mapTitle": "Karte von Magdeburg",
+    "projectHeading": "Unsere Küche",
+    "summary": "Entdecke Wokgerichte, Sushi und weitere asiatisch inspirierte Gerichte.",
+    "menuInvitation": "Unsere Speisekarte umfasst zwölf Kategorien – von Vorspeisen bis Desserts."
   },
   "footer": {
-    "description": "Ein fiktives Asian-Fusion-Konzept in Magdeburg, gestaltet als Webentwicklungs-Demoprojekt.",
+    "description": "Asian Fusion in Magdeburg, inspiriert von Aromen und Reisezielen in Asien.",
     "navigationHeading": "Navigation",
-    "locationHeading": "Standortidee",
-    "projectHeading": "Projektinformation",
-    "copyright": "© {year} Golden Crane. Fiktives Demoprojekt."
+    "locationHeading": "Standort",
+    "projectHeading": "Über dieses Projekt",
+    "copyright": "© {year} Golden Crane."
   },
   "notices": {
-    "projectHeading": "Hinweis zum Projekt",
-    "fictional": "Golden Crane ist ein fiktives Restaurant, das als Webentwicklungs-Demoprojekt erstellt wurde.",
-    "noService": "Es gibt keinen realen Restaurantbetrieb und keine Möglichkeit zur Reservierung, Bestellung oder Lieferung.",
-    "menuIllustrative": "Gerichtsnamen, Beschreibungen und Preise sind illustrative Inhalte. Die Fotos sind den Gerichten nicht anhand einer visuellen Prüfung zugeordnet worden.",
-    "priceDemo": "Alle Preise sind fiktive Beispielpreise in Euro.",
+    "projectHeading": "Über dieses Projekt",
+    "fictional": "Golden Crane ist ein fiktives Restaurant, das als Webentwicklungsprojekt gestaltet wurde.",
+    "noService": "Es handelt sich nicht um einen realen Gastronomiebetrieb.",
+    "menuIllustrative": "Namen, Beschreibungen und Bilder geben einen Einblick in die Speisekarte.",
+    "priceDemo": "Alle Preise in Euro.",
     "allergenHeading": "Hinweis zu Zutaten & Allergenen",
-    "allergenDescription": "Die Demokarte enthält keine verifizierten Zutatenlisten oder Allergenangaben. Aus Namen, Beschreibungen und Fotos lassen sich keine verlässlichen Aussagen zu Allergenen oder Ernährungsformen ableiten."
+    "allergenDescription": "Zutaten und Allergeninformationen lassen sich nicht verlässlich aus Gerichtsnamen, Beschreibungen oder Bildern ableiten."
   },
   "accessibility": {
     "skipToContent": "Zum Hauptinhalt springen",
@@ -108,33 +110,33 @@
     "closeNavigation": "Hauptnavigation schließen",
     "menuItems": "Gerichte der Kategorie {category}",
     "categoryLink": "Kategorie {category} ansehen",
-    "interiorImage": "Illustratives Foto eines warm beleuchteten Restaurantinnenraums"
+    "interiorImage": "Foto eines warm beleuchteten Restaurantinnenraums"
   },
   "metadata": {
     "home": {
-      "title": "Golden Crane | Asian Fusion in Magdeburg – Demoprojekt",
-      "description": "Entdecke Golden Crane: ein fiktives Asian-Fusion-Konzept in Magdeburg mit 153 Menüideen. Ein Webentwicklungs-Demoprojekt."
+      "title": "Golden Crane | Asian Fusion in Magdeburg",
+      "description": "Entdecke Golden Crane: Asian Fusion in Magdeburg mit 153 asiatisch inspirierten Gerichten in zwölf Kategorien."
     },
     "menu": {
-      "title": "Speisekarte | Golden Crane – Demoprojekt",
-      "description": "Zwölf Kategorien mit 153 fiktiven Gerichten und Beispielpreisen in Euro. Die Demokarte von Golden Crane."
+      "title": "Speisekarte | Golden Crane",
+      "description": "Zwölf Kategorien mit 153 asiatisch inspirierten Gerichten und Preisen in Euro. Entdecke die Speisekarte von Golden Crane."
     },
     "category": {
-      "title": "{category} | Golden Crane – Demokarte",
-      "description": "Entdecke {category} in der fiktiven Speisekarte von Golden Crane. Asiatisch inspirierte Menüideen mit Beispielpreisen."
+      "title": "{category} | Golden Crane",
+      "description": "Entdecke {category} auf der Speisekarte von Golden Crane. Asiatisch inspirierte Gerichte mit Preisen in Euro."
     },
     "about": {
-      "title": "Über das Konzept | Golden Crane – Demoprojekt",
-      "description": "Die Idee hinter Golden Crane: ein fiktives Asian-Fusion-Restaurantkonzept in Magdeburg, gestaltet als Webentwicklungs-Demoprojekt."
+      "title": "Über uns | Golden Crane",
+      "description": "Die Idee hinter Golden Crane: Asian Fusion in Magdeburg mit kulinarischer Vielfalt, ausgewogener Gestaltung und asiatischen Einflüssen."
     },
     "compatibility": {
       "title": "Weiter zu „Über uns“ | Golden Crane",
-      "description": "Diese Seite wurde eingestellt. Entdecke das fiktive Golden-Crane-Konzept unter „Über uns“."
+      "description": "Diese Seite wurde eingestellt. Erfahre mehr über Golden Crane unter „Über uns“."
     }
   },
   "compatibility": {
     "heading": "Das Konzept findest du jetzt unter „Über uns“.",
-    "description": "Diese frühere Seite wurde eingestellt. Erfahre mehr über das fiktive Golden-Crane-Konzept auf der Seite „Über uns“.",
+    "description": "Diese frühere Seite wurde eingestellt. Erfahre mehr über Golden Crane auf der Seite „Über uns“.",
     "aboutLink": "Zu „Über uns“"
   }
 }
