@@ -1,0 +1,129 @@
+{
+  "brand": {
+    "name": "Golden Crane",
+    "cuisine": "Asian Fusion",
+    "location": "Magdeburg, Germany",
+    "tagline": "Asian Fusion · Magdeburg"
+  },
+  "navigation": {
+    "home": "Home",
+    "menu": "Menu",
+    "about": "About",
+    "location": "Location",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation"
+  },
+  "home": {
+    "eyebrow": "A culinary journey",
+    "heading": "Welcome to Golden Crane",
+    "introduction": "A fictional Asian-fusion concept in Magdeburg, inspired by flavours and destinations across Asia.",
+    "menuLink": "Explore the menu",
+    "aboutLink": "Discover the concept",
+    "conceptHeading": "Variety in balance",
+    "conceptIntroduction": "Golden Crane brings ideas from different Asian cuisines together in a creative demonstration menu. The names invite an imagined journey.",
+    "wokHeading": "Wok & spice",
+    "wokDescription": "Noodles, rice and vegetables form the basis of many savoury dishes in this fictional menu.",
+    "sushiHeading": "Sushi & variety",
+    "sushiDescription": "Maki, nigiri and small selections bring together different shapes, fillings and textures.",
+    "aromaHeading": "Aroma & balance",
+    "aromaDescription": "Ginger, herbs and mild to spicy sauces add varied accents to the menu ideas.",
+    "highlightsHeading": "A taste of the menu",
+    "highlightsIntroduction": "Explore selected categories and their fictional dishes.",
+    "allCategoriesLink": "View all 12 categories"
+  },
+  "menu": {
+    "heading": "Our menu",
+    "introduction": "153 fictional dishes across twelve categories, inspired by Asian destinations and culinary variety.",
+    "categoryLink": "View category",
+    "backToOverview": "Back to the menu",
+    "categoryNavigation": "Menu categories",
+    "itemCount": "{count} dishes",
+    "categoryPosition": "Category {current} of {total}",
+    "priceFrom": "from {price}",
+    "loading": "Loading menu…",
+    "error": "The menu could not be loaded. Please refresh the page or try again later.",
+    "javascriptRequired": "Please enable JavaScript to view the dishes in this category."
+  },
+  "about": {
+    "eyebrow": "The concept",
+    "heading": "About Golden Crane",
+    "introduction": "Golden Crane is a fictional Asian-fusion restaurant concept with Magdeburg as its imagined location. It was designed as a web development demonstration project.",
+    "philosophyHeading": "One idea, many influences",
+    "philosophyDescription": "The demonstration menu combines familiar dish types with creative names drawn from Asian cities and landscapes. It is a design interpretation, not a collection of authentic regional recipes.",
+    "valuesHeading": "Three ideas behind the concept",
+    "varietyHeading": "Culinary variety",
+    "varietyDescription": "Twelve categories show the range of fictional menu ideas, from small starters to sweet finishes.",
+    "balanceHeading": "Balance & clarity",
+    "balanceDescription": "Flavours, images and short descriptions aim to create a clear, inviting menu.",
+    "atmosphereHeading": "A calm design",
+    "atmosphereDescription": "The concept uses a restrained restaurant aesthetic that gives individual dishes room to stand out.",
+    "craneHeading": "The crane as a design motif",
+    "craneDescription": "In this project, the name Golden Crane and the crane motif express lightness, calm and the idea of a journey.",
+    "menuHeading": "Discover the menu ideas",
+    "menuIntroduction": "Explore the twelve categories and their Asian-inspired house creations.",
+    "menuLink": "Explore the menu"
+  },
+  "contact": {
+    "heading": "Location & project information",
+    "locationHeading": "Inspired by Magdeburg",
+    "location": "Magdeburg, Germany",
+    "description": "Magdeburg is the imagined location of this restaurant concept. Golden Crane has no real premises or contact services.",
+    "mapLink": "View Magdeburg on the map",
+    "mapTitle": "Map of Magdeburg, not a restaurant location",
+    "projectHeading": "A demonstration project"
+  },
+  "footer": {
+    "description": "A fictional Asian-fusion concept in Magdeburg, designed as a web development demonstration project.",
+    "navigationHeading": "Navigation",
+    "locationHeading": "Location concept",
+    "projectHeading": "Project information",
+    "copyright": "© {year} Golden Crane. Fictional demonstration project."
+  },
+  "notices": {
+    "projectHeading": "About this project",
+    "fictional": "Golden Crane is a fictional restaurant created as a web development demonstration project.",
+    "noService": "There is no real restaurant operation and no reservation, ordering or delivery service.",
+    "menuIllustrative": "Dish names, descriptions and prices are illustrative content. The photographs have not been matched to dishes through visual inspection.",
+    "priceDemo": "All prices are fictional demonstration prices in euros.",
+    "allergenHeading": "Ingredients & allergen notice",
+    "allergenDescription": "This demonstration menu does not contain verified ingredient lists or allergen information. Names, descriptions and photographs do not establish reliable allergen or dietary information."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "primaryNavigation": "Main navigation",
+    "footerNavigation": "Footer navigation",
+    "homeLink": "Golden Crane home",
+    "languageSwitcher": "Choose language",
+    "german": "German",
+    "english": "English",
+    "switchToGerman": "Switch to German",
+    "switchToEnglish": "Switch to English",
+    "themeSwitcher": "Choose colour theme",
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme",
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme",
+    "openNavigation": "Open main navigation",
+    "closeNavigation": "Close main navigation",
+    "menuItems": "Dishes in {category}",
+    "categoryLink": "View {category} category"
+  },
+  "metadata": {
+    "home": {
+      "title": "Golden Crane | Asian Fusion in Magdeburg – Demo Project",
+      "description": "Discover Golden Crane, a fictional Asian-fusion concept in Magdeburg with 153 menu ideas. A web development demonstration project."
+    },
+    "menu": {
+      "title": "Menu | Golden Crane – Demo Project",
+      "description": "Twelve categories with 153 fictional dishes and demonstration prices in euros. The Golden Crane demo menu."
+    },
+    "category": {
+      "title": "{category} | Golden Crane – Demo Menu",
+      "description": "Explore {category} in the fictional Golden Crane menu. Asian-inspired menu ideas with demonstration prices."
+    },
+    "about": {
+      "title": "About the Concept | Golden Crane – Demo Project",
+      "description": "The idea behind Golden Crane: a fictional Asian-fusion restaurant concept in Magdeburg, designed as a web development demonstration project."
+    }
+  }
+}

@@ -1,0 +1,2303 @@
+{
+  "currency": "EUR",
+  "categories": [
+    {
+      "id": "starters",
+      "name": {
+        "de": "Vorspeisen",
+        "en": "Starters"
+      },
+      "items": [
+        {
+          "id": "starters-01",
+          "code": "ST01",
+          "name": {
+            "de": "Hanoi-Frühlingsrollen",
+            "en": "Hanoi Spring Rolls"
+          },
+          "description": {
+            "de": "Knusprige Rollen mit fein geschnittenem Gemüse und einem würzig-säuerlichen Dip.",
+            "en": "Crisp rolls filled with finely cut vegetables, served with a tangy dipping sauce."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/starters/starters (1).jpg"
+        },
+        {
+          "id": "starters-02",
+          "code": "ST02",
+          "name": {
+            "de": "Shanghai-Teigtaschen",
+            "en": "Shanghai Dumplings"
+          },
+          "description": {
+            "de": "Zarte Teigtaschen mit herzhafter Füllung und einer leichten Dipsauce.",
+            "en": "Tender dumplings with a savoury filling and a light dipping sauce."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/starters/starters (2).jpg"
+        },
+        {
+          "id": "starters-03",
+          "code": "ST03",
+          "name": {
+            "de": "Bangkok-Knusperhäppchen",
+            "en": "Bangkok Crispy Bites"
+          },
+          "description": {
+            "de": "Goldbraune, mundgerechte Küchlein mit einem mild gewürzten Hausdip.",
+            "en": "Golden bite-sized fritters with a gently spiced house dip."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/starters/starters (3).jpg"
+        },
+        {
+          "id": "starters-04",
+          "code": "ST04",
+          "name": {
+            "de": "Kyoto-Sesamhäppchen",
+            "en": "Kyoto Sesame Snacks"
+          },
+          "description": {
+            "de": "Kleine knusprige Häppchen mit Sesam und einer herzhaften Glasur.",
+            "en": "Small crisp bites finished with sesame and a savoury glaze."
+          },
+          "price": 6.5,
+          "image": "images/menu-item-tiles/starters/starters (4).jpg"
+        },
+        {
+          "id": "starters-05",
+          "code": "ST05",
+          "name": {
+            "de": "Saigon-Reispapierrollen",
+            "en": "Saigon Rice Rolls"
+          },
+          "description": {
+            "de": "Weiche Reispapierrollen mit einer frischen, knackigen Füllung.",
+            "en": "Soft rice-paper rolls with a fresh, crunchy filling."
+          },
+          "price": 8.5,
+          "image": "images/menu-item-tiles/starters/starters (5).jpg"
+        },
+        {
+          "id": "starters-06",
+          "code": "ST06",
+          "name": {
+            "de": "Goldene Seoul-Päckchen",
+            "en": "Seoul Golden Parcels"
+          },
+          "description": {
+            "de": "Leicht ausgebackene Päckchen mit einer warmen, herzhaften Füllung.",
+            "en": "Lightly fried parcels with a warm savoury centre."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/starters/starters (6).jpg"
+        },
+        {
+          "id": "starters-07",
+          "code": "ST07",
+          "name": {
+            "de": "Penang-Spieße",
+            "en": "Penang Skewers"
+          },
+          "description": {
+            "de": "Herzhafte gegrillte Spieße mit einer milden Dipsauce.",
+            "en": "Grilled savoury skewers served with a mellow dipping sauce."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/starters/starters (7).jpg"
+        },
+        {
+          "id": "starters-08",
+          "code": "ST08",
+          "name": {
+            "de": "Taipei-Pfefferhäppchen",
+            "en": "Taipei Pepper Bites"
+          },
+          "description": {
+            "de": "Knusprige Häppchen, mit Pfeffer und etwas Frühlingszwiebel geschwenkt.",
+            "en": "Crisp morsels tossed with pepper and a little spring onion."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/starters/starters (8).jpg"
+        },
+        {
+          "id": "starters-09",
+          "code": "ST09",
+          "name": {
+            "de": "Hongkong-Wontons",
+            "en": "Hong Kong Wontons"
+          },
+          "description": {
+            "de": "Feine gefüllte Wontons mit einem süß-säuerlichen Dip.",
+            "en": "Delicate filled wontons served with a sweet and tangy dip."
+          },
+          "price": 6.5,
+          "image": "images/menu-item-tiles/starters/starters (9).jpg"
+        },
+        {
+          "id": "starters-10",
+          "code": "ST10",
+          "name": {
+            "de": "Malakka-Gewürzküchlein",
+            "en": "Malacca Spice Fritters"
+          },
+          "description": {
+            "de": "Kleine, in der Pfanne gebratene Küchlein mit aromatischen Gewürzen.",
+            "en": "Small pan-fried fritters with aromatic seasoning."
+          },
+          "price": 8.5,
+          "image": "images/menu-item-tiles/starters/starters (10).jpg"
+        },
+        {
+          "id": "starters-11",
+          "code": "ST11",
+          "name": {
+            "de": "Mekong-Knusperrollen",
+            "en": "Mekong Crunch Rolls"
+          },
+          "description": {
+            "de": "Goldbraune Rollen mit knuspriger Hülle und mild gewürzter Füllung.",
+            "en": "Golden rolls with a crisp shell and a softly seasoned filling."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/starters/starters (11).jpg"
+        },
+        {
+          "id": "starters-12",
+          "code": "ST12",
+          "name": {
+            "de": "Nara-Hausteigtaschen",
+            "en": "Nara House Dumplings"
+          },
+          "description": {
+            "de": "Gedämpfte Teigtaschen mit einer frischen Ingwer-Dipsauce.",
+            "en": "Steamed dumplings served with a bright ginger dipping sauce."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/starters/starters (12).jpg"
+        },
+        {
+          "id": "starters-13",
+          "code": "ST13",
+          "name": {
+            "de": "Manila-Blätterteighäppchen",
+            "en": "Manila Savoury Puffs"
+          },
+          "description": {
+            "de": "Blättriges Gebäck mit einer mild gewürzten, herzhaften Füllung.",
+            "en": "Flaky pastry bites with a gently seasoned savoury filling."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/starters/starters (13).jpg"
+        },
+        {
+          "id": "starters-14",
+          "code": "ST14",
+          "name": {
+            "de": "Jakarta-Straßenhäppchen",
+            "en": "Jakarta Street Bites"
+          },
+          "description": {
+            "de": "Warme kleine Häppchen mit einer leicht süßlichen Haussauce.",
+            "en": "Warm snack-sized bites with a lightly sweet house sauce."
+          },
+          "price": 6.5,
+          "image": "images/menu-item-tiles/starters/starters (14).jpg"
+        },
+        {
+          "id": "starters-15",
+          "code": "ST15",
+          "name": {
+            "de": "Busan-Knusperrollen",
+            "en": "Busan Crispy Rolls"
+          },
+          "description": {
+            "de": "Ausgebackene Rollen mit einer erfrischend säuerlichen Dipsauce.",
+            "en": "Fried rolls paired with a sharp, refreshing dipping sauce."
+          },
+          "price": 8.5,
+          "image": "images/menu-item-tiles/starters/starters (15).jpg"
+        },
+        {
+          "id": "starters-16",
+          "code": "ST16",
+          "name": {
+            "de": "Macau-Vorspeisenteller",
+            "en": "Macau Sharing Plate"
+          },
+          "description": {
+            "de": "Eine kleine Auswahl knuspriger, herzhafter Vorspeisen mit Hausdips.",
+            "en": "A small selection of crisp savoury starters with house dips."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/starters/starters (16).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Kleine Häppchen, Rollen und Teigtaschen für den Auftakt einer kulinarischen Reise.",
+        "en": "Small bites, rolls and dumplings to begin a culinary journey."
+      }
+    },
+    {
+      "id": "soups",
+      "name": {
+        "de": "Suppen",
+        "en": "Soups"
+      },
+      "items": [
+        {
+          "id": "soups-01",
+          "code": "SO01",
+          "name": {
+            "de": "Klare Hanoi-Brühe",
+            "en": "Hanoi Clear Broth"
+          },
+          "description": {
+            "de": "Eine leichte, herzhafte Brühe mit Gemüse und duftenden Kräutern.",
+            "en": "A light savoury broth with vegetables and fragrant herbs."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/soups/soups (1).jpg"
+        },
+        {
+          "id": "soups-02",
+          "code": "SO02",
+          "name": {
+            "de": "Bangkok-Gemüsesuppe",
+            "en": "Bangkok Warming Soup"
+          },
+          "description": {
+            "de": "Eine mild gewürzte Gemüsesuppe mit einer frischen Zitrusnote.",
+            "en": "A gently spiced soup with vegetables and a bright citrus finish."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/soups/soups (2).jpg"
+        },
+        {
+          "id": "soups-03",
+          "code": "SO03",
+          "name": {
+            "de": "Kyoto-Nudelbrühe",
+            "en": "Kyoto Noodle Broth"
+          },
+          "description": {
+            "de": "Feine Nudeln in einer milden, wärmenden Brühe.",
+            "en": "Fine noodles served in a delicate, warming broth."
+          },
+          "price": 7.5,
+          "image": "images/menu-item-tiles/soups/soups (3).jpg"
+        },
+        {
+          "id": "soups-04",
+          "code": "SO04",
+          "name": {
+            "de": "Seoul-Pfeffersuppe",
+            "en": "Seoul Pepper Soup"
+          },
+          "description": {
+            "de": "Eine kräftige Gemüsebrühe mit einer leicht wärmenden Pfeffernote.",
+            "en": "A hearty vegetable broth with a touch of peppery warmth."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/soups/soups (4).jpg"
+        },
+        {
+          "id": "soups-05",
+          "code": "SO05",
+          "name": {
+            "de": "Shanghai-Teigtaschensuppe",
+            "en": "Shanghai Dumpling Soup"
+          },
+          "description": {
+            "de": "Weiche gefüllte Teigtaschen in einer klaren, herzhaften Brühe.",
+            "en": "Soft filled dumplings served in a savoury clear broth."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/soups/soups (5).jpg"
+        },
+        {
+          "id": "soups-06",
+          "code": "SO06",
+          "name": {
+            "de": "Mekong-Gartensuppe",
+            "en": "Mekong Garden Soup"
+          },
+          "description": {
+            "de": "Eine wohltuende Suppe mit gemischtem Gemüse und frischen Kräutern.",
+            "en": "A comforting soup with mixed vegetables and fresh herbs."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/soups/soups (6).jpg"
+        },
+        {
+          "id": "soups-07",
+          "code": "SO07",
+          "name": {
+            "de": "Taipei-Ingwerbrühe",
+            "en": "Taipei Ginger Broth"
+          },
+          "description": {
+            "de": "Eine leichte Suppe mit Ingwer und Frühlingszwiebeln.",
+            "en": "A light soup lifted with ginger and spring onion."
+          },
+          "price": 7.5,
+          "image": "images/menu-item-tiles/soups/soups (7).jpg"
+        },
+        {
+          "id": "soups-08",
+          "code": "SO08",
+          "name": {
+            "de": "Penang-Haussuppe",
+            "en": "Penang House Soup"
+          },
+          "description": {
+            "de": "Eine fein aromatische Brühe mit zartem Gemüse.",
+            "en": "A gently aromatic broth with tender vegetables."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/soups/soups (8).jpg"
+        },
+        {
+          "id": "soups-09",
+          "code": "SO09",
+          "name": {
+            "de": "Nara-Pilzsuppe",
+            "en": "Nara Mushroom Soup"
+          },
+          "description": {
+            "de": "Pilze, sanft in einer milden, herzhaften Brühe gegart.",
+            "en": "Mushrooms simmered in a mellow, savoury broth."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/soups/soups (9).jpg"
+        },
+        {
+          "id": "soups-10",
+          "code": "SO10",
+          "name": {
+            "de": "Saigon-Reisnudelsuppe",
+            "en": "Saigon Rice Noodle Soup"
+          },
+          "description": {
+            "de": "Reisnudeln und Gemüse in einer duftenden Hausbrühe.",
+            "en": "Rice noodles and vegetables in a fragrant house broth."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/soups/soups (10).jpg"
+        },
+        {
+          "id": "soups-11",
+          "code": "SO11",
+          "name": {
+            "de": "Sichuan-Suppenschale",
+            "en": "Sichuan Warming Bowl"
+          },
+          "description": {
+            "de": "Eine vollmundige Suppe mit einer milden Chilinote.",
+            "en": "A full-flavoured soup with a mild chilli finish."
+          },
+          "price": 7.5,
+          "image": "images/menu-item-tiles/soups/soups (11).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Wärmende Brühen und Suppen mit Gemüse, Nudeln und aromatischen Noten.",
+        "en": "Warming broths and soups with vegetables, noodles and aromatic notes."
+      }
+    },
+    {
+      "id": "noodles",
+      "name": {
+        "de": "Nudelgerichte",
+        "en": "Noodles"
+      },
+      "items": [
+        {
+          "id": "noodles-01",
+          "code": "N01",
+          "name": {
+            "de": "Bangkok-Woknudeln",
+            "en": "Bangkok Wok Noodles"
+          },
+          "description": {
+            "de": "Im Wok geschwenkte Nudeln mit Gemüse und einer mild gewürzten Sauce.",
+            "en": "Wok-tossed noodles with vegetables and a gently spiced sauce."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/noodles/noodles (1).jpg"
+        },
+        {
+          "id": "noodles-02",
+          "code": "N02",
+          "name": {
+            "de": "Shanghai-Bratnudeln",
+            "en": "Shanghai Stir-Fried Noodles"
+          },
+          "description": {
+            "de": "Goldbraun gebratene Nudeln in einer herzhaften Haussauce.",
+            "en": "Golden stir-fried noodles coated in a savoury house sauce."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/noodles/noodles (2).jpg"
+        },
+        {
+          "id": "noodles-03",
+          "code": "N03",
+          "name": {
+            "de": "Hanoi-Reisnudeln",
+            "en": "Hanoi Rice Noodles"
+          },
+          "description": {
+            "de": "Reisnudeln mit knackigem Gemüse und aromatischen Kräutern.",
+            "en": "Rice noodles tossed with crisp vegetables and aromatic herbs."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/noodles/noodles (3).jpg"
+        },
+        {
+          "id": "noodles-04",
+          "code": "N04",
+          "name": {
+            "de": "Osaka-Sesamnudeln",
+            "en": "Osaka Sesame Noodles"
+          },
+          "description": {
+            "de": "Zarte Nudeln mit Sesam und einer milden, herzhaften Sauce.",
+            "en": "Tender noodles dressed with sesame and a mellow savoury sauce."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/noodles/noodles (4).jpg"
+        },
+        {
+          "id": "noodles-05",
+          "code": "N05",
+          "name": {
+            "de": "Seoul-Chilinudeln",
+            "en": "Seoul Chilli Noodles"
+          },
+          "description": {
+            "de": "Woknudeln mit Gemüse und einer wärmenden Chiliglasur.",
+            "en": "Wok-fried noodles with vegetables and a warming chilli glaze."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/noodles/noodles (5).jpg"
+        },
+        {
+          "id": "noodles-06",
+          "code": "N06",
+          "name": {
+            "de": "Penang-Marktnudeln",
+            "en": "Penang Market Noodles"
+          },
+          "description": {
+            "de": "Gebratene Nudeln mit gemischtem Gemüse und duftenden Gewürzen.",
+            "en": "Stir-fried noodles with mixed vegetables and fragrant seasoning."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/noodles/noodles (6).jpg"
+        },
+        {
+          "id": "noodles-07",
+          "code": "N07",
+          "name": {
+            "de": "Taipei-Ingwernudeln",
+            "en": "Taipei Ginger Noodles"
+          },
+          "description": {
+            "de": "Nudeln, mit Ingwer, Frühlingszwiebeln und einer leichten Sauce geschwenkt.",
+            "en": "Noodles tossed with ginger, spring onion and a light sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/noodles/noodles (7).jpg"
+        },
+        {
+          "id": "noodles-08",
+          "code": "N08",
+          "name": {
+            "de": "Singapur-Hausnudeln",
+            "en": "Singapore House Noodles"
+          },
+          "description": {
+            "de": "Feine Bratnudeln mit Gemüse und milder Würze.",
+            "en": "Fine noodles stir-fried with vegetables and gentle spice."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/noodles/noodles (8).jpg"
+        },
+        {
+          "id": "noodles-09",
+          "code": "N09",
+          "name": {
+            "de": "Mekong-Knoblauchnudeln",
+            "en": "Mekong Garlic Noodles"
+          },
+          "description": {
+            "de": "Woknudeln mit Knoblauch und knackigem Gemüse.",
+            "en": "Wok-tossed noodles with garlic and crunchy vegetables."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/noodles/noodles (9).jpg"
+        },
+        {
+          "id": "noodles-10",
+          "code": "N10",
+          "name": {
+            "de": "Yokohama-Pfeffernudeln",
+            "en": "Yokohama Pepper Noodles"
+          },
+          "description": {
+            "de": "Nudeln mit grob gemahlenem Pfeffer und einer kräftigen, herzhaften Sauce.",
+            "en": "Noodles finished with cracked pepper and a rich savoury sauce."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/noodles/noodles (10).jpg"
+        },
+        {
+          "id": "noodles-11",
+          "code": "N11",
+          "name": {
+            "de": "Süßliche Jakarta-Woknudeln",
+            "en": "Jakarta Sweet Wok Noodles"
+          },
+          "description": {
+            "de": "Gebratene Nudeln mit einer ausgewogenen, leicht süßlichen Hausglasur.",
+            "en": "Stir-fried noodles balanced with a lightly sweet house glaze."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/noodles/noodles (11).jpg"
+        },
+        {
+          "id": "noodles-12",
+          "code": "N12",
+          "name": {
+            "de": "Chengdu-Feuernudeln",
+            "en": "Chengdu Fire Noodles"
+          },
+          "description": {
+            "de": "Ein herzhaftes Nudelgericht mit einer pikanten Chilisauce.",
+            "en": "A hearty noodle dish with a lively chilli sauce."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/noodles/noodles (12).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Nudelgerichte aus dem Wok, von mild und herzhaft bis angenehm pikant.",
+        "en": "Wok noodle dishes ranging from mild and savoury to pleasantly spicy."
+      }
+    },
+    {
+      "id": "fried_rice",
+      "name": {
+        "de": "Gebratener Reis",
+        "en": "Fried Rice"
+      },
+      "items": [
+        {
+          "id": "fried-rice-01",
+          "code": "F01",
+          "name": {
+            "de": "Yangzhou-Hausreis",
+            "en": "Yangzhou House Rice"
+          },
+          "description": {
+            "de": "Wokreis mit fein geschnittenem Gemüse und herzhafter Würze.",
+            "en": "Wok-fried rice with finely cut vegetables and savoury seasoning."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/fried_rice/fried_rice (1).jpg"
+        },
+        {
+          "id": "fried-rice-02",
+          "code": "F02",
+          "name": {
+            "de": "Goldener Bangkok-Reis",
+            "en": "Bangkok Golden Rice"
+          },
+          "description": {
+            "de": "Goldbrauner Bratreis mit Gemüse und einer milden Gewürzmischung.",
+            "en": "Golden fried rice with vegetables and a mild spice blend."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/fried_rice/fried_rice (2).jpg"
+        },
+        {
+          "id": "fried-rice-03",
+          "code": "F03",
+          "name": {
+            "de": "Seoul-Pfefferreis",
+            "en": "Seoul Pepper Rice"
+          },
+          "description": {
+            "de": "Gebratener Reis mit Frühlingszwiebeln und einer pfeffrigen Haussauce.",
+            "en": "Fried rice tossed with spring onion and a peppery house sauce."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/fried_rice/fried_rice (3).jpg"
+        },
+        {
+          "id": "fried-rice-04",
+          "code": "F04",
+          "name": {
+            "de": "Kyoto-Sesamreis",
+            "en": "Kyoto Sesame Rice"
+          },
+          "description": {
+            "de": "Leicht gerösteter Reis mit Gemüse und Sesamwürze.",
+            "en": "Lightly toasted rice with vegetables and sesame seasoning."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/fried_rice/fried_rice (4).jpg"
+        },
+        {
+          "id": "fried-rice-05",
+          "code": "F05",
+          "name": {
+            "de": "Malakka-Wokreis",
+            "en": "Malacca Wok Rice"
+          },
+          "description": {
+            "de": "Duftender Bratreis mit einer süßlich-herzhaften Glasur.",
+            "en": "Fragrant fried rice finished with a sweet and savoury glaze."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/fried_rice/fried_rice (5).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Gebratener Reis mit Gemüse und abwechslungsreicher Würze.",
+        "en": "Fried rice with vegetables and varied seasonings."
+      }
+    },
+    {
+      "id": "beef",
+      "name": {
+        "de": "Rindfleisch",
+        "en": "Beef"
+      },
+      "items": [
+        {
+          "id": "beef-01",
+          "code": "B01",
+          "name": {
+            "de": "Shanghai-Rindfleisch",
+            "en": "Shanghai Beef"
+          },
+          "description": {
+            "de": "Zartes Rindfleisch, mit Gemüse in einer glänzenden Haussauce gebraten.",
+            "en": "Tender beef stir-fried with vegetables in a glossy house sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/beef/beef (1).jpg"
+        },
+        {
+          "id": "beef-02",
+          "code": "B02",
+          "name": {
+            "de": "Sichuan-Feuerrind",
+            "en": "Sichuan Fire Beef"
+          },
+          "description": {
+            "de": "Rindfleischstreifen mit Gemüse und einer pikanten Chilisauce.",
+            "en": "Beef strips tossed with vegetables and a lively chilli sauce."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/beef/beef (2).jpg"
+        },
+        {
+          "id": "beef-03",
+          "code": "B03",
+          "name": {
+            "de": "Hongkong-Pfefferrind",
+            "en": "Hong Kong Pepper Beef"
+          },
+          "description": {
+            "de": "Im Wok angebratenes Rindfleisch mit grobem Pfeffer und herzhafter Sauce.",
+            "en": "Wok-seared beef finished with cracked pepper and savoury gravy."
+          },
+          "price": 16.9,
+          "image": "images/menu-item-tiles/beef/beef (3).jpg"
+        },
+        {
+          "id": "beef-04",
+          "code": "B04",
+          "name": {
+            "de": "Hanoi-Ingwerrind",
+            "en": "Hanoi Ginger Beef"
+          },
+          "description": {
+            "de": "Rindfleischscheiben mit Ingwer und knackigem Gemüse.",
+            "en": "Sliced beef cooked with ginger and crunchy vegetables."
+          },
+          "price": 17.9,
+          "image": "images/menu-item-tiles/beef/beef (4).jpg"
+        },
+        {
+          "id": "beef-05",
+          "code": "B05",
+          "name": {
+            "de": "Bangkok-Chilirind",
+            "en": "Bangkok Chilli Beef"
+          },
+          "description": {
+            "de": "Gebratenes Rindfleisch in einer leicht süßlichen Chiliglasur.",
+            "en": "Beef stir-fried in a gently sweet chilli glaze."
+          },
+          "price": 16.5,
+          "image": "images/menu-item-tiles/beef/beef (5).jpg"
+        },
+        {
+          "id": "beef-06",
+          "code": "B06",
+          "name": {
+            "de": "Seoul-Sesamrind",
+            "en": "Seoul Sesame Beef"
+          },
+          "description": {
+            "de": "Zartes Rindfleisch in einer herzhaften Sauce mit duftender Sesamnote.",
+            "en": "Tender beef coated in a sesame-scented savoury sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/beef/beef (6).jpg"
+        },
+        {
+          "id": "beef-07",
+          "code": "B07",
+          "name": {
+            "de": "Taipei-Knoblauchrind",
+            "en": "Taipei Garlic Beef"
+          },
+          "description": {
+            "de": "Wokgebratenes Rindfleisch mit Knoblauch und einer kräftigen Hausglasur.",
+            "en": "Wok-fried beef with garlic and a rich house glaze."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/beef/beef (7).jpg"
+        },
+        {
+          "id": "beef-08",
+          "code": "B08",
+          "name": {
+            "de": "Penang-Gewürzrind",
+            "en": "Penang Spice Beef"
+          },
+          "description": {
+            "de": "Rindfleischstücke, mit Gemüse und aromatischen Gewürzen geschmort.",
+            "en": "Beef pieces simmered with vegetables and aromatic seasoning."
+          },
+          "price": 16.9,
+          "image": "images/menu-item-tiles/beef/beef (8).jpg"
+        },
+        {
+          "id": "beef-09",
+          "code": "B09",
+          "name": {
+            "de": "Osaka-Rindfleisch",
+            "en": "Osaka Golden Beef"
+          },
+          "description": {
+            "de": "Angebratenes Rindfleisch mit Gemüse und einer milden, herzhaften Sauce.",
+            "en": "Seared beef served with vegetables and a mellow savoury sauce."
+          },
+          "price": 17.9,
+          "image": "images/menu-item-tiles/beef/beef (9).jpg"
+        },
+        {
+          "id": "beef-10",
+          "code": "B10",
+          "name": {
+            "de": "Chengdu-Wokrind",
+            "en": "Chengdu Wok Beef"
+          },
+          "description": {
+            "de": "Rindfleischstreifen, kurz mit Paprika und wärmenden Gewürzen geschwenkt.",
+            "en": "Beef strips quickly tossed with peppers and warm spices."
+          },
+          "price": 16.5,
+          "image": "images/menu-item-tiles/beef/beef (10).jpg"
+        },
+        {
+          "id": "beef-11",
+          "code": "B11",
+          "name": {
+            "de": "Mekong-Gartenrind",
+            "en": "Mekong Garden Beef"
+          },
+          "description": {
+            "de": "Rindfleisch und gemischtes Gemüse in einer leichten Sauce.",
+            "en": "Beef and mixed vegetables brought together in a light sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/beef/beef (11).jpg"
+        },
+        {
+          "id": "beef-12",
+          "code": "B12",
+          "name": {
+            "de": "Busan-Frühlingszwiebelrind",
+            "en": "Busan Spring Onion Beef"
+          },
+          "description": {
+            "de": "Zartes Rindfleisch, mit Frühlingszwiebeln und Ingwer gebraten.",
+            "en": "Tender beef stir-fried with spring onion and ginger."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/beef/beef (12).jpg"
+        },
+        {
+          "id": "beef-13",
+          "code": "B13",
+          "name": {
+            "de": "Macau-Hausrind",
+            "en": "Macau House Beef"
+          },
+          "description": {
+            "de": "Rindfleischstücke in einer süßlich-herzhaften Haussauce.",
+            "en": "Beef pieces coated in a sweet and savoury house sauce."
+          },
+          "price": 16.9,
+          "image": "images/menu-item-tiles/beef/beef (13).jpg"
+        },
+        {
+          "id": "beef-14",
+          "code": "B14",
+          "name": {
+            "de": "Glasiertes Jakarta-Rindfleisch",
+            "en": "Jakarta Glazed Beef"
+          },
+          "description": {
+            "de": "Im Wok angebratenes Rindfleisch mit einer leicht karamellisierten Glasur.",
+            "en": "Wok-seared beef finished with a lightly caramelised glaze."
+          },
+          "price": 17.9,
+          "image": "images/menu-item-tiles/beef/beef (14).jpg"
+        },
+        {
+          "id": "beef-15",
+          "code": "B15",
+          "name": {
+            "de": "Kobe-Bistrorind",
+            "en": "Kobe Bistro Beef"
+          },
+          "description": {
+            "de": "Rindfleischscheiben mit Gemüse in einer pfeffrigen Bistrosauce.",
+            "en": "Sliced beef with vegetables in a peppery bistro sauce."
+          },
+          "price": 16.5,
+          "image": "images/menu-item-tiles/beef/beef (15).jpg"
+        },
+        {
+          "id": "beef-16",
+          "code": "B16",
+          "name": {
+            "de": "Suzhou-Pilzrind",
+            "en": "Suzhou Mushroom Beef"
+          },
+          "description": {
+            "de": "Rindfleisch, mit Pilzen in einer milden, herzhaften Sauce gebraten.",
+            "en": "Beef stir-fried with mushrooms in a mellow savoury sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/beef/beef (16).jpg"
+        },
+        {
+          "id": "beef-17",
+          "code": "B17",
+          "name": {
+            "de": "Luang-Prabang-Aromarind",
+            "en": "Luang Prabang Aromatic Beef"
+          },
+          "description": {
+            "de": "Zartes Rindfleisch mit duftenden Kräutern und einer warmen Haussauce.",
+            "en": "Tender beef served with fragrant herbs and a warm house sauce."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/beef/beef (17).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Rindfleischgerichte mit Gemüse und Saucen, inspiriert von Reisezielen in Asien.",
+        "en": "Beef dishes with vegetables and sauces, inspired by destinations across Asia."
+      }
+    },
+    {
+      "id": "chicken",
+      "name": {
+        "de": "Hähnchen",
+        "en": "Chicken"
+      },
+      "items": [
+        {
+          "id": "chicken-01",
+          "code": "CH01",
+          "name": {
+            "de": "Kyoto-Hähnchen",
+            "en": "Kyoto Chicken"
+          },
+          "description": {
+            "de": "Zartes Hähnchen mit Gemüse in einer milden Haussauce.",
+            "en": "Tender chicken with vegetables in a mellow house sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/chicken/chicken (1).jpg"
+        },
+        {
+          "id": "chicken-02",
+          "code": "CH02",
+          "name": {
+            "de": "Bangkok-Sweet-Chili-Hähnchen",
+            "en": "Bangkok Sweet Chilli Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstücke in einer frischen, süßlichen Chiliglasur.",
+            "en": "Chicken pieces tossed in a bright sweet chilli glaze."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/chicken/chicken (2).jpg"
+        },
+        {
+          "id": "chicken-03",
+          "code": "CH03",
+          "name": {
+            "de": "Shanghai-Ingwerhähnchen",
+            "en": "Shanghai Ginger Chicken"
+          },
+          "description": {
+            "de": "Wokgebratenes Hähnchen mit Ingwer und Frühlingszwiebeln.",
+            "en": "Wok-fried chicken with ginger and spring onion."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/chicken/chicken (3).jpg"
+        },
+        {
+          "id": "chicken-04",
+          "code": "CH04",
+          "name": {
+            "de": "Seoul-Sesamhähnchen",
+            "en": "Seoul Sesame Chicken"
+          },
+          "description": {
+            "de": "Hähnchen in einer glänzenden Sauce mit duftender Sesamnote.",
+            "en": "Chicken coated in a glossy sesame-scented sauce."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/chicken/chicken (4).jpg"
+        },
+        {
+          "id": "chicken-05",
+          "code": "CH05",
+          "name": {
+            "de": "Hanoi-Knoblauchhähnchen",
+            "en": "Hanoi Garlic Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstreifen, mit Knoblauch und knackigem Gemüse gebraten.",
+            "en": "Sliced chicken stir-fried with garlic and crisp vegetables."
+          },
+          "price": 14.5,
+          "image": "images/menu-item-tiles/chicken/chicken (5).jpg"
+        },
+        {
+          "id": "chicken-06",
+          "code": "CH06",
+          "name": {
+            "de": "Sichuan-Pfefferhähnchen",
+            "en": "Sichuan Pepper Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstücke mit Gemüse und einer wärmenden Pfeffersauce.",
+            "en": "Chicken pieces with vegetables and a warming pepper sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/chicken/chicken (6).jpg"
+        },
+        {
+          "id": "chicken-07",
+          "code": "CH07",
+          "name": {
+            "de": "Taipei-Knusperhähnchen",
+            "en": "Taipei Crispy Chicken"
+          },
+          "description": {
+            "de": "Goldbraune Hähnchenhäppchen mit einer würzig-säuerlichen Hausglasur.",
+            "en": "Golden chicken bites served with a tangy house glaze."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/chicken/chicken (7).jpg"
+        },
+        {
+          "id": "chicken-08",
+          "code": "CH08",
+          "name": {
+            "de": "Penang-Gewürzhähnchen",
+            "en": "Penang Spice Chicken"
+          },
+          "description": {
+            "de": "Zartes Hähnchen mit Gemüse und aromatischen Gewürzen.",
+            "en": "Tender chicken cooked with vegetables and aromatic seasoning."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/chicken/chicken (8).jpg"
+        },
+        {
+          "id": "chicken-09",
+          "code": "CH09",
+          "name": {
+            "de": "Osaka-Hähnchen nach Teriyaki-Art",
+            "en": "Osaka Teriyaki-Style Chicken"
+          },
+          "description": {
+            "de": "Hähnchen mit einer leicht süßlichen, herzhaften Glasur.",
+            "en": "Chicken finished with a gently sweet, savoury glaze."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/chicken/chicken (9).jpg"
+        },
+        {
+          "id": "chicken-10",
+          "code": "CH10",
+          "name": {
+            "de": "Saigon-Kräuterhähnchen",
+            "en": "Saigon Herb Chicken"
+          },
+          "description": {
+            "de": "Hähnchen und Gemüse mit duftenden Kräutern verfeinert.",
+            "en": "Chicken and vegetables lifted with fragrant herbs."
+          },
+          "price": 14.5,
+          "image": "images/menu-item-tiles/chicken/chicken (10).jpg"
+        },
+        {
+          "id": "chicken-11",
+          "code": "CH11",
+          "name": {
+            "de": "Hongkong-Zitronenhähnchen",
+            "en": "Hong Kong Lemon Chicken"
+          },
+          "description": {
+            "de": "Goldbraunes Hähnchen mit einer leichten Zitrussauce.",
+            "en": "Golden chicken served with a light citrus sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/chicken/chicken (11).jpg"
+        },
+        {
+          "id": "chicken-12",
+          "code": "CH12",
+          "name": {
+            "de": "Busan-Chilihähnchen",
+            "en": "Busan Chilli Chicken"
+          },
+          "description": {
+            "de": "Im Wok geschwenktes Hähnchen mit einer pikanten Chilinote.",
+            "en": "Wok-tossed chicken with a lively chilli finish."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/chicken/chicken (12).jpg"
+        },
+        {
+          "id": "chicken-13",
+          "code": "CH13",
+          "name": {
+            "de": "Goldenes Malakka-Hähnchen",
+            "en": "Malacca Golden Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstücke mit Gemüse und einer milden Gewürzsauce.",
+            "en": "Chicken pieces served with vegetables and a mellow spice sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/chicken/chicken (13).jpg"
+        },
+        {
+          "id": "chicken-14",
+          "code": "CH14",
+          "name": {
+            "de": "Jakarta-Wokhähnchen",
+            "en": "Jakarta Wok Chicken"
+          },
+          "description": {
+            "de": "Gebratenes Hähnchen in einer kräftigen, süßlich-herzhaften Sauce.",
+            "en": "Stir-fried chicken in a rich sweet and savoury sauce."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/chicken/chicken (14).jpg"
+        },
+        {
+          "id": "chicken-15",
+          "code": "CH15",
+          "name": {
+            "de": "Nara-Pilzhähnchen",
+            "en": "Nara Mushroom Chicken"
+          },
+          "description": {
+            "de": "Hähnchen mit Pilzen und einer milden Haussauce.",
+            "en": "Chicken cooked with mushrooms and a gentle house gravy."
+          },
+          "price": 14.5,
+          "image": "images/menu-item-tiles/chicken/chicken (15).jpg"
+        },
+        {
+          "id": "chicken-16",
+          "code": "CH16",
+          "name": {
+            "de": "Manila-Haushähnchen",
+            "en": "Manila House Chicken"
+          },
+          "description": {
+            "de": "Zartes Hähnchen mit knackigem Gemüse und einer würzig-säuerlichen Sauce.",
+            "en": "Tender chicken served with crunchy vegetables and a tangy sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/chicken/chicken (16).jpg"
+        },
+        {
+          "id": "chicken-17",
+          "code": "CH17",
+          "name": {
+            "de": "Chengdu-Feuerhähnchen",
+            "en": "Chengdu Fire Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstreifen in einer kräftigen, wärmenden Chilisauce.",
+            "en": "Chicken strips tossed in a bold, warming chilli sauce."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/chicken/chicken (17).jpg"
+        },
+        {
+          "id": "chicken-18",
+          "code": "CH18",
+          "name": {
+            "de": "Mekong-Gartenhähnchen",
+            "en": "Mekong Garden Chicken"
+          },
+          "description": {
+            "de": "Hähnchen und gemischtes Gemüse in einer leichten, herzhaften Sauce.",
+            "en": "Chicken and mixed vegetables in a light savoury sauce."
+          },
+          "price": 14.9,
+          "image": "images/menu-item-tiles/chicken/chicken (18).jpg"
+        },
+        {
+          "id": "chicken-19",
+          "code": "CH19",
+          "name": {
+            "de": "Nagoya-Pfefferhähnchen",
+            "en": "Nagoya Pepper Chicken"
+          },
+          "description": {
+            "de": "Im Wok angebratenes Hähnchen mit einer aromatischen Pfefferglasur.",
+            "en": "Wok-seared chicken finished with a fragrant pepper glaze."
+          },
+          "price": 15.9,
+          "image": "images/menu-item-tiles/chicken/chicken (19).jpg"
+        },
+        {
+          "id": "chicken-20",
+          "code": "CH20",
+          "name": {
+            "de": "Chiang-Mai-Aromahähnchen",
+            "en": "Chiang Mai Aromatic Chicken"
+          },
+          "description": {
+            "de": "Hähnchenstücke mit Kräutern und milden, aromatischen Gewürzen.",
+            "en": "Chicken pieces cooked with herbs and mild aromatic spices."
+          },
+          "price": 14.5,
+          "image": "images/menu-item-tiles/chicken/chicken (20).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Hähnchengerichte mit Ingwer, Sesam und weiteren aromatischen Akzenten.",
+        "en": "Chicken dishes with ginger, sesame and other aromatic accents."
+      }
+    },
+    {
+      "id": "duck",
+      "name": {
+        "de": "Ente",
+        "en": "Duck"
+      },
+      "items": [
+        {
+          "id": "duck-01",
+          "code": "DU01",
+          "name": {
+            "de": "Kaiserliche Ente",
+            "en": "Imperial Duck"
+          },
+          "description": {
+            "de": "Zarte Ente mit Gemüse und einer kräftigen, herzhaften Sauce.",
+            "en": "Tender duck served with vegetables and a rich savoury sauce."
+          },
+          "price": 18.9,
+          "image": "images/menu-item-tiles/duck/duck (1).jpg"
+        },
+        {
+          "id": "duck-02",
+          "code": "DU02",
+          "name": {
+            "de": "Peking-Hausente",
+            "en": "Beijing House Duck"
+          },
+          "description": {
+            "de": "Gebratene Entenstücke mit einer leicht süßlichen Hausglasur.",
+            "en": "Roasted duck pieces paired with a gently sweet house glaze."
+          },
+          "price": 19.9,
+          "image": "images/menu-item-tiles/duck/duck (2).jpg"
+        },
+        {
+          "id": "duck-03",
+          "code": "DU03",
+          "name": {
+            "de": "Hangzhou-Ingwerente",
+            "en": "Hangzhou Ginger Duck"
+          },
+          "description": {
+            "de": "Ente mit Ingwer, Frühlingszwiebeln und einer milden Sauce.",
+            "en": "Duck finished with ginger, spring onion and a mellow sauce."
+          },
+          "price": 20.9,
+          "image": "images/menu-item-tiles/duck/duck (3).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Drei Entengerichte mit milden, herzhaften und leicht süßlichen Saucen.",
+        "en": "Three duck dishes with mellow, savoury and gently sweet sauces."
+      }
+    },
+    {
+      "id": "veggie",
+      "name": {
+        "de": "Gemüsegerichte",
+        "en": "Vegetable Dishes"
+      },
+      "items": [
+        {
+          "id": "veggie-01",
+          "code": "VE01",
+          "name": {
+            "de": "Kyoto-Gemüseteller",
+            "en": "Kyoto Garden Plate"
+          },
+          "description": {
+            "de": "Gemischtes Gemüse, kurz in einer herzhaften Haussauce gebraten.",
+            "en": "Mixed vegetables lightly stir-fried in a savoury house sauce."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/veggie/veggie (1).jpg"
+        },
+        {
+          "id": "veggie-02",
+          "code": "VE02",
+          "name": {
+            "de": "Hanoi-Ingwergemüse",
+            "en": "Hanoi Ginger Greens"
+          },
+          "description": {
+            "de": "Zartes Blattgemüse und weiteres Gemüse, mit duftendem Ingwer geschwenkt.",
+            "en": "Tender greens and vegetables tossed with fragrant ginger."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/veggie/veggie (2).jpg"
+        },
+        {
+          "id": "veggie-03",
+          "code": "VE03",
+          "name": {
+            "de": "Bangkok-Chiligemüse",
+            "en": "Bangkok Chilli Garden"
+          },
+          "description": {
+            "de": "Knackiges Gemüse in einer mild wärmenden Chilisauce.",
+            "en": "Crisp vegetables coated in a gently warming chilli sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/veggie/veggie (3).jpg"
+        },
+        {
+          "id": "veggie-04",
+          "code": "VE04",
+          "name": {
+            "de": "Shanghai-Pilzwok",
+            "en": "Shanghai Mushroom Wok"
+          },
+          "description": {
+            "de": "Pilze und Gemüse, mit einer milden, herzhaften Glasur gebraten.",
+            "en": "Mushrooms and vegetables stir-fried with a mellow savoury glaze."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/veggie/veggie (4).jpg"
+        },
+        {
+          "id": "veggie-05",
+          "code": "VE05",
+          "name": {
+            "de": "Seoul-Sesamgemüse",
+            "en": "Seoul Sesame Vegetables"
+          },
+          "description": {
+            "de": "Im Wok geschwenktes Gemüse mit Sesamwürze.",
+            "en": "Wok-tossed vegetables finished with sesame seasoning."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/veggie/veggie (5).jpg"
+        },
+        {
+          "id": "veggie-06",
+          "code": "VE06",
+          "name": {
+            "de": "Nara-Knoblauchgemüse",
+            "en": "Nara Garlic Greens"
+          },
+          "description": {
+            "de": "Grünes Gemüse, kurz mit Knoblauch und einer leichten Sauce gegart.",
+            "en": "Green vegetables quickly cooked with garlic and a light sauce."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/veggie/veggie (6).jpg"
+        },
+        {
+          "id": "veggie-07",
+          "code": "VE07",
+          "name": {
+            "de": "Penang-Gewürzgemüse",
+            "en": "Penang Spice Garden"
+          },
+          "description": {
+            "de": "Gemischtes Gemüse in einer milden, aromatischen Sauce.",
+            "en": "Mixed vegetables served in a mild aromatic sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/veggie/veggie (7).jpg"
+        },
+        {
+          "id": "veggie-08",
+          "code": "VE08",
+          "name": {
+            "de": "Taipei-Pfeffergemüse",
+            "en": "Taipei Pepper Vegetables"
+          },
+          "description": {
+            "de": "Knackiges Gemüse mit grobem Pfeffer und Frühlingszwiebeln.",
+            "en": "Crunchy vegetables tossed with cracked pepper and spring onion."
+          },
+          "price": 13.9,
+          "image": "images/menu-item-tiles/veggie/veggie (8).jpg"
+        },
+        {
+          "id": "veggie-09",
+          "code": "VE09",
+          "name": {
+            "de": "Mekong-Marktteller",
+            "en": "Mekong Market Plate"
+          },
+          "description": {
+            "de": "Eine bunte Gemüsemischung in einer leichten Haussauce.",
+            "en": "A colourful mix of vegetables cooked in a light house sauce."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/veggie/veggie (9).jpg"
+        },
+        {
+          "id": "veggie-10",
+          "code": "VE10",
+          "name": {
+            "de": "Goldenes Ubud-Gemüse",
+            "en": "Ubud Golden Vegetables"
+          },
+          "description": {
+            "de": "Zartes Gemüse mit milden Gewürzen und einer herzhaften Glasur.",
+            "en": "Tender vegetables finished with gentle spices and a savoury glaze."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/veggie/veggie (10).jpg"
+        },
+        {
+          "id": "veggie-11",
+          "code": "VE11",
+          "name": {
+            "de": "Suzhou-Gemüsepfanne",
+            "en": "Suzhou Garden Stir-Fry"
+          },
+          "description": {
+            "de": "Saisonal inspiriertes Gemüse, mit Ingwer und Knoblauch gebraten.",
+            "en": "Seasonal-style vegetables stir-fried with ginger and garlic."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/veggie/veggie (11).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Gemüse und Pilze in vielfältigen Kombinationen aus Pfanne und Wok.",
+        "en": "Vegetables and mushrooms in varied pan- and wok-cooked combinations."
+      }
+    },
+    {
+      "id": "sushi",
+      "name": {
+        "de": "Sushi",
+        "en": "Sushi"
+      },
+      "items": [
+        {
+          "id": "sushi-01",
+          "code": "SU01",
+          "name": {
+            "de": "Osaka-Hausmaki",
+            "en": "Osaka House Maki"
+          },
+          "description": {
+            "de": "Mundgerechte Reisrollen mit einer herzhaften Hausfüllung.",
+            "en": "Bite-sized rice rolls wrapped around a savoury house filling."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (1).jpg"
+        },
+        {
+          "id": "sushi-02",
+          "code": "SU02",
+          "name": {
+            "de": "Kyoto-Gemüsemaki",
+            "en": "Kyoto Garden Maki"
+          },
+          "description": {
+            "de": "Reisrollen mit knackigem Gemüsekern und einer feinen Algenhülle.",
+            "en": "Rice rolls with a crisp vegetable centre and a neat seaweed wrap."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (2).jpg"
+        },
+        {
+          "id": "sushi-03",
+          "code": "SU03",
+          "name": {
+            "de": "Tokio-Lachsrolle",
+            "en": "Tokyo Salmon Roll"
+          },
+          "description": {
+            "de": "Gerolltes Sushi mit einer zarten Lachsfüllung.",
+            "en": "A rolled sushi selection with a soft salmon filling."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (3).jpg"
+        },
+        {
+          "id": "sushi-04",
+          "code": "SU04",
+          "name": {
+            "de": "Yokohama-Thunfischmaki",
+            "en": "Yokohama Tuna Maki"
+          },
+          "description": {
+            "de": "Reisrollen in einer Algenhülle mit zartem Thunfischkern.",
+            "en": "Rice and seaweed rolls with a tender tuna centre."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (4).jpg"
+        },
+        {
+          "id": "sushi-05",
+          "code": "SU05",
+          "name": {
+            "de": "Nara-Gurkenrolle",
+            "en": "Nara Cucumber Roll"
+          },
+          "description": {
+            "de": "Schlichte Reisrollen mit einer frischen, knackigen Gurkenfüllung.",
+            "en": "Simple rice rolls with a fresh, crunchy cucumber filling."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (5).jpg"
+        },
+        {
+          "id": "sushi-06",
+          "code": "SU06",
+          "name": {
+            "de": "Kobe-Avocadomaki",
+            "en": "Kobe Avocado Maki"
+          },
+          "description": {
+            "de": "Weiche Reisrollen mit einem cremigen Avocadokern.",
+            "en": "Soft rice rolls with a smooth avocado centre."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (6).jpg"
+        },
+        {
+          "id": "sushi-07",
+          "code": "SU07",
+          "name": {
+            "de": "Sapporo-Sesamrolle",
+            "en": "Sapporo Sesame Roll"
+          },
+          "description": {
+            "de": "Sushirollen mit Sesam und einer herzhaften Füllung.",
+            "en": "Sushi rolls finished with sesame and a savoury filling."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (7).jpg"
+        },
+        {
+          "id": "sushi-08",
+          "code": "SU08",
+          "name": {
+            "de": "Nagoya-Goldrolle",
+            "en": "Nagoya Golden Roll"
+          },
+          "description": {
+            "de": "Reisrollen mit knuspriger Füllung und etwas leichter Haussauce.",
+            "en": "Rice rolls with a crisp filling and a light house drizzle."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (8).jpg"
+        },
+        {
+          "id": "sushi-09",
+          "code": "SU09",
+          "name": {
+            "de": "Kanazawa-Meeresrolle",
+            "en": "Kanazawa Sea Roll"
+          },
+          "description": {
+            "de": "Eine kompakte Reisrolle mit einer feinen, von Meeresfrüchten inspirierten Füllung.",
+            "en": "A compact rice roll with a delicate seafood-style filling."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (9).jpg"
+        },
+        {
+          "id": "sushi-10",
+          "code": "SU10",
+          "name": {
+            "de": "Sendai-Pfeffermaki",
+            "en": "Sendai Pepper Maki"
+          },
+          "description": {
+            "de": "Herzhafte Reisrollen mit einer milden Pfeffernote.",
+            "en": "Savoury rice rolls with a gently peppery finish."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (10).jpg"
+        },
+        {
+          "id": "sushi-11",
+          "code": "SU11",
+          "name": {
+            "de": "Hakone-Hausrolle",
+            "en": "Hakone House Roll"
+          },
+          "description": {
+            "de": "Reisrollen in einer Algenhülle mit einer ausgewogenen Hausfüllung.",
+            "en": "Seaweed-wrapped rice rolls with a balanced house filling."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (11).jpg"
+        },
+        {
+          "id": "sushi-12",
+          "code": "SU12",
+          "name": {
+            "de": "Kamakura-Knusperrolle",
+            "en": "Kamakura Crunch Roll"
+          },
+          "description": {
+            "de": "Sushirollen mit knusprigem Kern und einer herzhaften Sauce.",
+            "en": "Sushi rolls with a crisp centre and a savoury sauce."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (12).jpg"
+        },
+        {
+          "id": "sushi-13",
+          "code": "SU13",
+          "name": {
+            "de": "Nikko-Ingwerrolle",
+            "en": "Nikko Ginger Roll"
+          },
+          "description": {
+            "de": "Reisrollen mit einer frischen Ingwernote.",
+            "en": "Rice rolls paired with a bright ginger accent."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (13).jpg"
+        },
+        {
+          "id": "sushi-14",
+          "code": "SU14",
+          "name": {
+            "de": "Hiroshima-Lachsmaki",
+            "en": "Hiroshima Salmon Maki"
+          },
+          "description": {
+            "de": "Reisrollen in einer Algenhülle mit Lachs und gewürztem Reis.",
+            "en": "Seaweed-wrapped rolls with salmon and seasoned rice."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (14).jpg"
+        },
+        {
+          "id": "sushi-15",
+          "code": "SU15",
+          "name": {
+            "de": "Fukuoka-Thunfischrolle",
+            "en": "Fukuoka Tuna Roll"
+          },
+          "description": {
+            "de": "Sushirollen mit Thunfisch und einer milden, herzhaften Note.",
+            "en": "Sushi rolls with tuna and a mellow savoury finish."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (15).jpg"
+        },
+        {
+          "id": "sushi-16",
+          "code": "SU16",
+          "name": {
+            "de": "Okinawa-Gemüserolle",
+            "en": "Okinawa Garden Roll"
+          },
+          "description": {
+            "de": "Reisrollen mit frischem, knackigem Gemüse.",
+            "en": "Rice rolls filled with fresh, crunchy vegetables."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (16).jpg"
+        },
+        {
+          "id": "sushi-17",
+          "code": "SU17",
+          "name": {
+            "de": "Takayama-Sesammaki",
+            "en": "Takayama Sesame Maki"
+          },
+          "description": {
+            "de": "Fein geschnittene Rollen mit Sesamwürze und einer weichen Füllung.",
+            "en": "Neatly cut rolls with sesame seasoning and a soft filling."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (17).jpg"
+        },
+        {
+          "id": "sushi-18",
+          "code": "SU18",
+          "name": {
+            "de": "Matsumoto-Avocadorolle",
+            "en": "Matsumoto Avocado Roll"
+          },
+          "description": {
+            "de": "Gewürzter Reis mit einem cremigen Avocadokern.",
+            "en": "Seasoned rice wrapped around a creamy avocado centre."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (18).jpg"
+        },
+        {
+          "id": "sushi-19",
+          "code": "SU19",
+          "name": {
+            "de": "Himeji-Knusperrolle",
+            "en": "Himeji Crispy Roll"
+          },
+          "description": {
+            "de": "Sushirollen mit knuspriger Füllung und einer leichten Haussauce.",
+            "en": "A crisp-filled sushi roll served with a light house sauce."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (19).jpg"
+        },
+        {
+          "id": "sushi-20",
+          "code": "SU20",
+          "name": {
+            "de": "Fuji-Hausmaki",
+            "en": "Fuji House Maki"
+          },
+          "description": {
+            "de": "Mundgerechte Rollen mit einer herzhaften Füllung und mildem Geschmack.",
+            "en": "Bite-sized rolls with a savoury filling and a smooth finish."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (20).jpg"
+        },
+        {
+          "id": "sushi-21",
+          "code": "SU21",
+          "name": {
+            "de": "Asakusa-Lachsnigiri",
+            "en": "Asakusa Salmon Nigiri"
+          },
+          "description": {
+            "de": "Gewürzter Reis mit einer feinen Lachsscheibe.",
+            "en": "Seasoned rice topped with a delicate slice of salmon."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (21).jpg"
+        },
+        {
+          "id": "sushi-22",
+          "code": "SU22",
+          "name": {
+            "de": "Ginza-Thunfischnigiri",
+            "en": "Ginza Tuna Nigiri"
+          },
+          "description": {
+            "de": "Kleine Portionen gewürzter Reis mit Thunfischscheiben.",
+            "en": "Small portions of seasoned rice finished with sliced tuna."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (22).jpg"
+        },
+        {
+          "id": "sushi-23",
+          "code": "SU23",
+          "name": {
+            "de": "Ueno-Reishäppchen",
+            "en": "Ueno Rice Bites"
+          },
+          "description": {
+            "de": "Kompakte Sushireishäppchen mit einem herzhaften Belag.",
+            "en": "Compact sushi rice bites with a savoury topping."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (23).jpg"
+        },
+        {
+          "id": "sushi-24",
+          "code": "SU24",
+          "name": {
+            "de": "Shibuya-Sesamhäppchen",
+            "en": "Shibuya Sesame Bites"
+          },
+          "description": {
+            "de": "Kleine Reishäppchen mit Sesam und einem Hausbelag.",
+            "en": "Small rice bites finished with sesame and a house topping."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (24).jpg"
+        },
+        {
+          "id": "sushi-25",
+          "code": "SU25",
+          "name": {
+            "de": "Arashiyama-Gemüsehäppchen",
+            "en": "Arashiyama Garden Bites"
+          },
+          "description": {
+            "de": "Gewürzte Reishäppchen mit einem frischen Gemüsebelag.",
+            "en": "Seasoned rice bites paired with a fresh vegetable topping."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (25).jpg"
+        },
+        {
+          "id": "sushi-26",
+          "code": "SU26",
+          "name": {
+            "de": "Gion-Hausnigiri",
+            "en": "Gion House Nigiri"
+          },
+          "description": {
+            "de": "Von Hand geformte Reisportionen mit einem feinen, herzhaften Belag.",
+            "en": "Hand-shaped rice portions served with a delicate savoury topping."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (26).jpg"
+        },
+        {
+          "id": "sushi-27",
+          "code": "SU27",
+          "name": {
+            "de": "Dotonbori-Goldhäppchen",
+            "en": "Dotonbori Golden Bites"
+          },
+          "description": {
+            "de": "Kleine Sushihäppchen mit goldbraunem Belag und einer leichten Sauce.",
+            "en": "Small sushi bites with a golden topping and light sauce."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (27).jpg"
+        },
+        {
+          "id": "sushi-28",
+          "code": "SU28",
+          "name": {
+            "de": "Ise-Meereshäppchen",
+            "en": "Ise Sea Bites"
+          },
+          "description": {
+            "de": "Gewürzte Reisportionen mit einer milden, von Meeresfrüchten inspirierten Auswahl.",
+            "en": "Seasoned rice portions topped with a mellow seafood-style selection."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (28).jpg"
+        },
+        {
+          "id": "sushi-29",
+          "code": "SU29",
+          "name": {
+            "de": "Nagasaki-Mixrolle",
+            "en": "Nagasaki Mixed Roll"
+          },
+          "description": {
+            "de": "Reisrollen mit abwechslungsreicher, herzhafter Füllung und einer Algenhülle.",
+            "en": "Rice rolls with a varied savoury centre and a seaweed wrap."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (29).jpg"
+        },
+        {
+          "id": "sushi-30",
+          "code": "SU30",
+          "name": {
+            "de": "Kagoshima-Chilirolle",
+            "en": "Kagoshima Chilli Roll"
+          },
+          "description": {
+            "de": "Sushirollen mit etwas mild wärmender Hauschilisauce.",
+            "en": "Sushi rolls with a gently warming house chilli drizzle."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (30).jpg"
+        },
+        {
+          "id": "sushi-31",
+          "code": "SU31",
+          "name": {
+            "de": "Kumamoto-Knuspermaki",
+            "en": "Kumamoto Crunch Maki"
+          },
+          "description": {
+            "de": "Mundgerechte Rollen mit knuspriger Füllung und Sesam.",
+            "en": "Bite-sized rolls with a crisp filling and sesame finish."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (31).jpg"
+        },
+        {
+          "id": "sushi-32",
+          "code": "SU32",
+          "name": {
+            "de": "Beppu-Gemüsemaki",
+            "en": "Beppu Garden Maki"
+          },
+          "description": {
+            "de": "Weiche Reisrollen mit einem bunten Gemüsekern.",
+            "en": "Soft rice rolls with a colourful vegetable centre."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (32).jpg"
+        },
+        {
+          "id": "sushi-33",
+          "code": "SU33",
+          "name": {
+            "de": "Wakayama-Lachshäppchen",
+            "en": "Wakayama Salmon Bites"
+          },
+          "description": {
+            "de": "Kleine Sushiportionen mit gewürztem Reis und Lachs.",
+            "en": "Small sushi portions pairing seasoned rice with salmon."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (33).jpg"
+        },
+        {
+          "id": "sushi-34",
+          "code": "SU34",
+          "name": {
+            "de": "Niigata-Thunfischhäppchen",
+            "en": "Niigata Tuna Bites"
+          },
+          "description": {
+            "de": "Mundgerechtes Sushi mit Thunfisch auf einer feinen Reisbasis.",
+            "en": "Bite-sized sushi with tuna and a delicate rice base."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (34).jpg"
+        },
+        {
+          "id": "sushi-35",
+          "code": "SU35",
+          "name": {
+            "de": "Aomori-Hausauswahl",
+            "en": "Aomori House Selection"
+          },
+          "description": {
+            "de": "Eine kleine Sushiauswahl mit Reisrollen und herzhaften Belägen.",
+            "en": "A small sushi selection with rice rolls and savoury toppings."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (35).jpg"
+        },
+        {
+          "id": "sushi-36",
+          "code": "SU36",
+          "name": {
+            "de": "Akita-Sesamauswahl",
+            "en": "Akita Sesame Selection"
+          },
+          "description": {
+            "de": "Verschiedene Sushihäppchen mit einer leichten Sesamnote.",
+            "en": "An assortment of sushi bites with a light sesame finish."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (36).jpg"
+        },
+        {
+          "id": "sushi-37",
+          "code": "SU37",
+          "name": {
+            "de": "Miyajima-Meeresauswahl",
+            "en": "Miyajima Sea Selection"
+          },
+          "description": {
+            "de": "Eine Auswahl aus Reisrollen und feinen, von Meeresfrüchten inspirierten Häppchen.",
+            "en": "A selection of rice rolls and delicate seafood-style bites."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/sushi/sushi (37).jpg"
+        },
+        {
+          "id": "sushi-38",
+          "code": "SU38",
+          "name": {
+            "de": "Shikoku-Gemüseauswahl",
+            "en": "Shikoku Garden Selection"
+          },
+          "description": {
+            "de": "Eine Auswahl aus gemüsegefüllten Rollen und gewürzten Reishäppchen.",
+            "en": "An assortment of vegetable-filled rolls and seasoned rice bites."
+          },
+          "price": 8.9,
+          "image": "images/menu-item-tiles/sushi/sushi (38).jpg"
+        },
+        {
+          "id": "sushi-39",
+          "code": "SU39",
+          "name": {
+            "de": "Setouchi-Sushimix",
+            "en": "Setouchi Mixed Sushi"
+          },
+          "description": {
+            "de": "Ein abwechslungsreicher Sushiteller mit Rollen und handgeformten Reisportionen.",
+            "en": "A varied sushi plate with rolls and hand-shaped rice portions."
+          },
+          "price": 9.9,
+          "image": "images/menu-item-tiles/sushi/sushi (39).jpg"
+        },
+        {
+          "id": "sushi-40",
+          "code": "SU40",
+          "name": {
+            "de": "Kiso-Tal-Haussushi",
+            "en": "Kiso Valley House Sushi"
+          },
+          "description": {
+            "de": "Eine ausgewogene Auswahl von Sushirollen mit herzhaften Füllungen.",
+            "en": "A balanced selection of sushi rolls with savoury fillings."
+          },
+          "price": 10.9,
+          "image": "images/menu-item-tiles/sushi/sushi (40).jpg"
+        },
+        {
+          "id": "sushi-41",
+          "code": "SU41",
+          "name": {
+            "de": "Noto-Küstenrollen",
+            "en": "Noto Coastal Rolls"
+          },
+          "description": {
+            "de": "Reisrollen in einer Algenhülle mit einer feinen, vom Meer inspirierten Füllung.",
+            "en": "Seaweed-wrapped rice rolls with a delicate sea-inspired filling."
+          },
+          "price": 11.9,
+          "image": "images/menu-item-tiles/sushi/sushi (41).jpg"
+        },
+        {
+          "id": "sushi-42",
+          "code": "SU42",
+          "name": {
+            "de": "Kochi-Bistroauswahl",
+            "en": "Kochi Bistro Selection"
+          },
+          "description": {
+            "de": "Eine Hausauswahl von Sushihäppchen mit unterschiedlichen Texturen.",
+            "en": "A house assortment of sushi bites with contrasting textures."
+          },
+          "price": 12.9,
+          "image": "images/menu-item-tiles/sushi/sushi (42).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Maki, Nigiri und kleine Auswahlteller mit unterschiedlichen Füllungen und Texturen.",
+        "en": "Maki, nigiri and small selections with varied fillings and textures."
+      }
+    },
+    {
+      "id": "specials",
+      "name": {
+        "de": "Spezialitäten",
+        "en": "Specials"
+      },
+      "items": [
+        {
+          "id": "specials-01",
+          "code": "SP01",
+          "name": {
+            "de": "Seidenstraßen-Hausteller",
+            "en": "Silk Road House Plate"
+          },
+          "description": {
+            "de": "Ein großzügiges, herzhaftes Hausgericht mit Gemüse und aromatischen Gewürzen.",
+            "en": "A generous savoury house dish with vegetables and aromatic seasoning."
+          },
+          "price": 16.9,
+          "image": "images/menu-item-tiles/specials/specials (1).jpg"
+        },
+        {
+          "id": "specials-02",
+          "code": "SP02",
+          "name": {
+            "de": "Sichuan-Feuerspezialität",
+            "en": "Sichuan Fire Special"
+          },
+          "description": {
+            "de": "Eine kräftige Hausauswahl aus dem Wok mit einer wärmenden Chilisauce.",
+            "en": "A bold wok-cooked house selection with a warming chilli sauce."
+          },
+          "price": 17.9,
+          "image": "images/menu-item-tiles/specials/specials (2).jpg"
+        },
+        {
+          "id": "specials-03",
+          "code": "SP03",
+          "name": {
+            "de": "Mekong-Marktspezialität",
+            "en": "Mekong Market Special"
+          },
+          "description": {
+            "de": "Ein bunter Hausteller mit Gemüse und einer leichten, herzhaften Glasur.",
+            "en": "A colourful house plate with vegetables and a light savoury glaze."
+          },
+          "price": 18.9,
+          "image": "images/menu-item-tiles/specials/specials (3).jpg"
+        },
+        {
+          "id": "specials-04",
+          "code": "SP04",
+          "name": {
+            "de": "Angkor-Goldteller",
+            "en": "Angkor Golden Plate"
+          },
+          "description": {
+            "de": "Eine goldbraune Hausauswahl mit einer leicht süßlichen Sauce.",
+            "en": "A golden house selection served with a gently sweet sauce."
+          },
+          "price": 19.9,
+          "image": "images/menu-item-tiles/specials/specials (4).jpg"
+        },
+        {
+          "id": "specials-05",
+          "code": "SP05",
+          "name": {
+            "de": "Buchara-Gewürzspezialität",
+            "en": "Bukhara Spice Special"
+          },
+          "description": {
+            "de": "Ein herzhaftes Hausgericht mit wärmenden Gewürzen und zartem Gemüse.",
+            "en": "A hearty house dish with warm spices and tender vegetables."
+          },
+          "price": 16.9,
+          "image": "images/menu-item-tiles/specials/specials (5).jpg"
+        },
+        {
+          "id": "specials-06",
+          "code": "SP06",
+          "name": {
+            "de": "Samarkand-Wokspezialität",
+            "en": "Samarkand Wok Special"
+          },
+          "description": {
+            "de": "Eine Auswahl aus dem Wok mit einer kräftigen Haussauce.",
+            "en": "A wok-cooked selection finished with a rich house sauce."
+          },
+          "price": 17.9,
+          "image": "images/menu-item-tiles/specials/specials (6).jpg"
+        },
+        {
+          "id": "specials-07",
+          "code": "SP07",
+          "name": {
+            "de": "Jeju-Inselspezialität",
+            "en": "Jeju Island Special"
+          },
+          "description": {
+            "de": "Ein herzhafter Hausteller mit Ingwer und Frühlingszwiebeln.",
+            "en": "A savoury house plate lifted with ginger and spring onion."
+          },
+          "price": 18.9,
+          "image": "images/menu-item-tiles/specials/specials (7).jpg"
+        },
+        {
+          "id": "specials-08",
+          "code": "SP08",
+          "name": {
+            "de": "Bali-Abendspezialität",
+            "en": "Bali Sunset Special"
+          },
+          "description": {
+            "de": "Eine großzügige Hausauswahl mit einer süß-säuerlichen Note.",
+            "en": "A generous house selection with a sweet and tangy finish."
+          },
+          "price": 19.9,
+          "image": "images/menu-item-tiles/specials/specials (8).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Fiktive Hauskreationen, inspiriert von Landschaften und Reisezielen in Asien.",
+        "en": "Fictional house creations inspired by landscapes and destinations across Asia."
+      }
+    },
+    {
+      "id": "dessert",
+      "name": {
+        "de": "Desserts",
+        "en": "Desserts"
+      },
+      "items": [
+        {
+          "id": "dessert-01",
+          "code": "DE01",
+          "name": {
+            "de": "Süßer Kyoto-Abschluss",
+            "en": "Kyoto Sweet Finish"
+          },
+          "description": {
+            "de": "Eine kleine süße Köstlichkeit mit feinem Geschmack und weicher Textur.",
+            "en": "A small sweet treat with a delicate flavour and soft texture."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/dessert/dessert (1).jpg"
+        },
+        {
+          "id": "dessert-02",
+          "code": "DE02",
+          "name": {
+            "de": "Mango-Bay-Dessert",
+            "en": "Mango Bay Dessert"
+          },
+          "description": {
+            "de": "Ein mild süßes Dessert mit einer frischen, fruchtig inspirierten Note.",
+            "en": "A gently sweet dessert with a bright, fruit-inspired finish."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/dessert/dessert (2).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Zwei süße Ideen für den Abschluss der Menüreise.",
+        "en": "Two sweet ideas to finish the menu journey."
+      }
+    },
+    {
+      "id": "children",
+      "name": {
+        "de": "Kindergerichte",
+        "en": "Children's Menu"
+      },
+      "items": [
+        {
+          "id": "children-01",
+          "code": "CD01",
+          "name": {
+            "de": "Panda-Gemüsereis",
+            "en": "Panda Garden Rice"
+          },
+          "description": {
+            "de": "Eine kleine Portion mild gewürzter Reis mit fein geschnittenem Gemüse.",
+            "en": "A small portion of gently seasoned rice with finely cut vegetables."
+          },
+          "price": 6.5,
+          "image": "images/menu-item-tiles/children/children (1).jpg"
+        },
+        {
+          "id": "children-02",
+          "code": "CD02",
+          "name": {
+            "de": "Kleine Fuji-Nudeln",
+            "en": "Fuji Little Noodles"
+          },
+          "description": {
+            "de": "Weiche Nudeln in einer milden, herzhaften Sauce.",
+            "en": "Soft noodles tossed in a mild savoury sauce."
+          },
+          "price": 6.9,
+          "image": "images/menu-item-tiles/children/children (2).jpg"
+        },
+        {
+          "id": "children-03",
+          "code": "CD03",
+          "name": {
+            "de": "Kyoto-Kinderhähnchen",
+            "en": "Kyoto Junior Chicken"
+          },
+          "description": {
+            "de": "Zarte Hähnchenhäppchen mit einer milden Haussauce.",
+            "en": "Tender chicken bites served with a gentle house sauce."
+          },
+          "price": 7.5,
+          "image": "images/menu-item-tiles/children/children (3).jpg"
+        },
+        {
+          "id": "children-04",
+          "code": "CD04",
+          "name": {
+            "de": "Hanoi-Miniröllchen",
+            "en": "Hanoi Mini Rolls"
+          },
+          "description": {
+            "de": "Kleine knusprige Rollen mit einer mild gewürzten, herzhaften Füllung.",
+            "en": "Small crisp rolls with a softly seasoned savoury filling."
+          },
+          "price": 5.9,
+          "image": "images/menu-item-tiles/children/children (4).jpg"
+        },
+        {
+          "id": "children-05",
+          "code": "CD05",
+          "name": {
+            "de": "Kleine Osaka-Reisschale",
+            "en": "Osaka Little Rice Bowl"
+          },
+          "description": {
+            "de": "Ein Reisgericht in Kinderportion mit einem milden, herzhaften Belag.",
+            "en": "A child-sized rice dish with a mellow savoury topping."
+          },
+          "price": 6.5,
+          "image": "images/menu-item-tiles/children/children (5).jpg"
+        },
+        {
+          "id": "children-06",
+          "code": "CD06",
+          "name": {
+            "de": "Mekong-Miniwok",
+            "en": "Mekong Mini Wok"
+          },
+          "description": {
+            "de": "Eine kleine Auswahl aus dem Wok mit Gemüse und milder Würze.",
+            "en": "A small stir-fried selection with vegetables and mild seasoning."
+          },
+          "price": 7.9,
+          "image": "images/menu-item-tiles/children/children (6).jpg"
+        }
+      ],
+      "introduction": {
+        "de": "Kleine Portionen mit milden Aromen für die Kinderkarte des Demoprojekts.",
+        "en": "Small portions with gentle flavours for the demonstration children’s menu."
+      }
+    }
+  ]
+}
