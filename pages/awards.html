@@ -1,185 +1,29 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-page="compatibility">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="../js/theme.js"></script>
     <script src="../js/i18n.js" defer></script>
-    <title>John Choo's China Bistro</title>
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <title>Weiter zu „Über uns“ | Golden Crane</title>
+    <meta name="description" content="Diese Seite wurde eingestellt. Entdecke das fiktive Golden-Crane-Konzept unter „Über uns“." />
+    <link rel="icon" type="image/svg+xml" href="../images/golden-crane-favicon.svg" />
+    <link rel="stylesheet" href="../css/golden-crane.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&amp;family=Plus+Jakarta+Sans:wght@400;600&amp;display=swap" rel="stylesheet" />
   </head>
-  <body>
-    <header lang="en">
-      <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="../index.html" class="pull-left visible-md visible-lg">
-              <div id="logo-img"></div>
-            </a>
-
-            <div class="navbar-brand">
-              <a href="../index.html"><h1>John Choo's China Bistro</h1></a>
-              <p>
-                <img
-                  src="../images/star-k-logo.png"
-                  alt="Kosher certification"
-                />
-                <span>Kosher Certified</span>
-              </p>
-            </div>
-
-            <button
-              type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#collapsable-nav"
-              aria-expanded="false"
-            >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-            <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li class="visible-xs active">
-                <a href="../index.html">
-                  <span class="glyphicon glyphicon-home"></span> Home</a
-                >
-              </li>
-              <li>
-                <a href="menu-categories.html">
-                  <span class="glyphicon glyphicon-cutlery"></span
-                  ><br class="hidden-xs" />
-                  Menu</a
-                >
-              </li>
-              <li>
-                <a href="about.html">
-                  <span class="glyphicon glyphicon-info-sign"></span
-                  ><br class="hidden-xs" />
-                  About</a
-                >
-              </li>
-              <li>
-                <a href="awards.html">
-                  <span class="glyphicon glyphicon-certificate"></span
-                  ><br class="hidden-xs" />
-                  Awards</a
-                >
-              </li>
-              <li id="phone" class="hidden-xs">
-                <a href=""> <span>312-602-5008</span></a>
-                <div>* We Deliver</div>
-              </li>
-            </ul>
-            <!-- #nav-list -->
-          </div>
-          <!-- .collapse .navbar-collapse -->
-        </div>
-      </nav>
-    </header>
-
-    <div id="call-btn" class="visible-xs" lang="en">
-      <a class="btn" href="">
-        <span class="glyphicon glyphicon-earphone"></span>
-        312-602-5008
-      </a>
-    </div>
-    <div id="xs-deliver" class="text-center visible-xs" lang="en">* We Deliver</div>
-
-    <!-- main content -->
-    <div id="main-content" class="container" lang="en">
-      <div id="awards-content">
-        <h2>Awards & Recognitions</h2>
-
-        <h3>Best Chinese Restaurant in Chicago</h3>
-        <p>
-          John Cho's China Bistro was honored with the prestigious award for
-          Best Chinese Restaurant in Chicago by the Chicago Food Critics
-          Association. This recognition reflects our commitment to excellence in
-          culinary artistry and customer satisfaction.
-        </p>
+  <body class="gc-page">
+    <main id="main-content" class="gc-container gc-compatibility">
+      <div class="gc-switch" role="group" aria-label="Sprache auswählen" data-i18n-aria-label="accessibility.languageSwitcher">
+        <button class="gc-control" type="button" data-language="de" aria-pressed="true" aria-label="Auf Deutsch wechseln" data-i18n-aria-label="accessibility.switchToGerman" lang="de">DE</button>
+        <button class="gc-control" type="button" data-language="en" aria-pressed="false" aria-label="Auf Englisch wechseln" data-i18n-aria-label="accessibility.switchToEnglish" lang="en">EN</button>
       </div>
-
-      <div>
-        <h3>Culinary Excellence Award</h3>
-        <p>
-          We are proud recipients of the Culinary Excellence Award presented by
-          the International Association of Chinese Cuisine. This award
-          acknowledges our dedication to preserving the authenticity and
-          tradition of Chinese cuisine while innovating and delighting our
-          guests.
-        </p>
-      </div>
-
-      <div>
-        <h3>Outstanding Service Award</h3>
-        <p>
-          John Cho's China Bistro has been honored with the Outstanding Service
-          Award by the American Hospitality Association. This recognition is a
-          testament to our unwavering commitment to providing exceptional
-          service and creating memorable dining experiences for our patrons.
-        </p>
-      </div>
-    </div>
-
-    <!-- end of main content -->
-
-    <footer class="panel-footer" lang="en">
-      <div class="container">
-        <div class="row">
-          <section id="hours" class="col-sm-4">
-            <span>Hours:</span><br />
-            Sun-Thurs: 11:15am - 10:00pm<br />
-            Fri: 11:15am - 2:30pm<br />
-            Saturday Closed
-            <hr class="visible-xs" />
-          </section>
-          <section id="address" class="col-sm-4">
-            <span>Address:</span><br />
-            568 W Adams St<br />
-            Chicago, IL 60661
-            <p>
-              * Delivery area within 3-4 miles, with minimum order of $20 plus
-              $3 charge for all deliveries.
-            </p>
-            <hr class="visible-xs" />
-          </section>
-          <section id="testimonials" class="col-sm-4">
-            <p>
-              "The best Chinese restaurant I've been to! And that's saying a
-              lot, since I've been to many!"
-            </p>
-            <p>
-              "Amazing food! Great service! Couldn't ask for more! I'll be back
-              again and again!"
-            </p>
-          </section>
-        </div>
-        <div class="text-center">
-          &copy; Copyright John Choo's China Bistro 2021
-        </div>
-      </div>
-    </footer>
-
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="../js/jquery-2.1.4.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/script.js"></script>
+      <p data-i18n="brand.name" class="gc-eyebrow">Golden Crane</p>
+      <h1 data-i18n="compatibility.heading" class="gc-heading">Das Konzept findest du jetzt unter „Über uns“.</h1>
+      <p data-i18n="compatibility.description" class="gc-lead">Diese frühere Seite wurde eingestellt. Erfahre mehr über das fiktive Golden-Crane-Konzept auf der Seite „Über uns“.</p>
+      <a data-i18n="compatibility.aboutLink" class="gc-button" href="about.html">Zu „Über uns“</a>
+      <p data-i18n="notices.fictional" class="gc-compatibility__notice">Golden Crane ist ein fiktives Restaurant, das als Webentwicklungs-Demoprojekt erstellt wurde.</p>
+    </main>
   </body>
 </html>

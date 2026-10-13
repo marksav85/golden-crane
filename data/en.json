@@ -29,7 +29,8 @@
     "aromaDescription": "Ginger, herbs and mild to spicy sauces add varied accents to the menu ideas.",
     "highlightsHeading": "A taste of the menu",
     "highlightsIntroduction": "Explore selected categories and their fictional dishes.",
-    "allCategoriesLink": "View all 12 categories"
+    "allCategoriesLink": "View all 12 categories",
+    "imageCaption": "Atmosphere for inspiration, not an actual Golden Crane location."
   },
   "menu": {
     "heading": "Our menu",
@@ -106,7 +107,8 @@
     "openNavigation": "Open main navigation",
     "closeNavigation": "Close main navigation",
     "menuItems": "Dishes in {category}",
-    "categoryLink": "View {category} category"
+    "categoryLink": "View {category} category",
+    "interiorImage": "Illustrative photograph of a warmly lit restaurant interior"
   },
   "metadata": {
     "home": {
@@ -124,6 +126,15 @@
     "about": {
       "title": "About the Concept | Golden Crane – Demo Project",
       "description": "The idea behind Golden Crane: a fictional Asian-fusion restaurant concept in Magdeburg, designed as a web development demonstration project."
+    },
+    "compatibility": {
+      "title": "Continue to About | Golden Crane",
+      "description": "This page has been retired. Discover the fictional Golden Crane concept on the About page."
     }
+  },
+  "compatibility": {
+    "heading": "You can now find the concept on the About page.",
+    "description": "This former page has been retired. Learn more about the fictional Golden Crane concept on the About page.",
+    "aboutLink": "Go to About"
   }
 }

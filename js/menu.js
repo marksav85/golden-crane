@@ -1,11 +1,12 @@
 (() => {
   "use strict";
-  const container = document.querySelector("#main-content section[data-category], [data-menu-overview]");
+  const container = document.querySelector("#main-content section[data-category], [data-menu-overview], [data-menu-highlights]");
   if (!container) return;
   const siteRoot = new URL("../", document.currentScript.src);
   const i18n = window.GoldenCraneI18n;
   const modernLayout = container.dataset.menuLayout === "cards";
-  const overview = container.hasAttribute("data-menu-overview");
+  const highlights = container.hasAttribute("data-menu-highlights");
+  const overview = container.hasAttribute("data-menu-overview") || highlights;
   const overviewStatus = document.querySelector("[data-overview-status]");
   const fallbacks = {
     "menu.loading": "Speisekarte wird geladen …",
@@ -130,7 +131,7 @@
       const data = await response.json();
       if (overview) {
         const categoryCards = Array.from(container.querySelectorAll("[data-category-card]"));
-        if (data.currency !== "EUR" || !Array.isArray(data.categories) || data.categories.length !== categoryCards.length || !categoryCards.every(card => {
+        if (data.currency !== "EUR" || !Array.isArray(data.categories) || (!highlights && data.categories.length !== categoryCards.length) || !categoryCards.every(card => {
           const entry = data.categories.find(({ id }) => id === card.dataset.categoryCard);
           return entry && localized(entry.name) && localized(entry.introduction) && Array.isArray(entry.items) && entry.items.length;
         })) throw new Error("Menu categories unavailable");

@@ -29,7 +29,8 @@
     "aromaDescription": "Ingwer, Kräuter und milde bis pikante Saucen geben den Menüideen abwechslungsreiche Akzente.",
     "highlightsHeading": "Einblicke in die Speisekarte",
     "highlightsIntroduction": "Entdecke ausgewählte Kategorien und ihre fiktiven Gerichte.",
-    "allCategoriesLink": "Alle 12 Kategorien ansehen"
+    "allCategoriesLink": "Alle 12 Kategorien ansehen",
+    "imageCaption": "Atmosphäre als Inspiration – kein realer Standort von Golden Crane."
   },
   "menu": {
     "heading": "Unsere Speisekarte",
@@ -106,7 +107,8 @@
     "openNavigation": "Hauptnavigation öffnen",
     "closeNavigation": "Hauptnavigation schließen",
     "menuItems": "Gerichte der Kategorie {category}",
-    "categoryLink": "Kategorie {category} ansehen"
+    "categoryLink": "Kategorie {category} ansehen",
+    "interiorImage": "Illustratives Foto eines warm beleuchteten Restaurantinnenraums"
   },
   "metadata": {
     "home": {
@@ -124,6 +126,15 @@
     "about": {
       "title": "Über das Konzept | Golden Crane – Demoprojekt",
       "description": "Die Idee hinter Golden Crane: ein fiktives Asian-Fusion-Restaurantkonzept in Magdeburg, gestaltet als Webentwicklungs-Demoprojekt."
+    },
+    "compatibility": {
+      "title": "Weiter zu „Über uns“ | Golden Crane",
+      "description": "Diese Seite wurde eingestellt. Entdecke das fiktive Golden-Crane-Konzept unter „Über uns“."
     }
+  },
+  "compatibility": {
+    "heading": "Das Konzept findest du jetzt unter „Über uns“.",
+    "description": "Diese frühere Seite wurde eingestellt. Erfahre mehr über das fiktive Golden-Crane-Konzept auf der Seite „Über uns“.",
+    "aboutLink": "Zu „Über uns“"
   }
 }
