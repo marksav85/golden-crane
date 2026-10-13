@@ -8,10 +8,7 @@
   "navigation": {
     "home": "Home",
     "menu": "Menu",
-    "about": "About",
-    "location": "Location",
-    "openMenu": "Open navigation",
-    "closeMenu": "Close navigation"
+    "about": "About"
   },
   "home": {
     "eyebrow": "A culinary journey",
@@ -37,13 +34,9 @@
     "introduction": "153 dishes across twelve categories, inspired by Asian destinations and culinary variety.",
     "categoryLink": "View category",
     "backToOverview": "Back to the menu",
-    "categoryNavigation": "Menu categories",
     "itemCount": "{count} dishes",
-    "categoryPosition": "Category {current} of {total}",
-    "priceFrom": "from {price}",
     "loading": "Loading menu…",
-    "error": "The menu could not be loaded. Please refresh the page or try again later.",
-    "javascriptRequired": "Please enable JavaScript to view the dishes in this category."
+    "error": "The menu could not be loaded. Please refresh the page or try again later."
   },
   "about": {
     "eyebrow": "The concept",
@@ -70,26 +63,19 @@
     "location": "Halberstädter Straße, Magdeburg, Germany",
     "description": "Asian Fusion in Magdeburg, inspired by the culinary variety of Asia.",
     "mapLink": "View Halberstädter Straße on Google Maps",
-    "mapTitle": "Google Maps: Halberstädter Straße, Magdeburg, Germany",
-    "projectHeading": "Our cuisine",
-    "summary": "Discover wok dishes, sushi and other Asian-inspired dishes.",
-    "menuInvitation": "Our menu spans twelve categories, from starters to desserts."
+    "mapTitle": "Google Maps: Halberstädter Straße, Magdeburg, Germany"
   },
   "footer": {
     "description": "Asian Fusion in Magdeburg, inspired by flavours and destinations across Asia.",
-    "navigationHeading": "Navigation",
-    "locationHeading": "Location",
-    "projectHeading": "About This Project",
-    "copyright": "© {year} Golden Crane."
+    "navigationHeading": "Navigation"
   },
   "notices": {
     "projectHeading": "About This Project",
     "fictional": "Golden Crane is a fictional restaurant website created as a web development project.",
     "noService": "It does not represent a real operating restaurant.",
-    "menuIllustrative": "Names, descriptions and photographs offer an introduction to the menu.",
-    "priceDemo": "All prices in euros.",
     "allergenHeading": "Ingredients & allergen notice",
-    "allergenDescription": "Ingredient and allergen information cannot reliably be determined from dish names, descriptions or photographs."
+    "allergenDescription": "Ingredient and allergen information cannot reliably be determined from dish names, descriptions or photographs.",
+    "pricesInEuros": "All prices in euros."
   },
   "accessibility": {
     "skipToContent": "Skip to main content",
@@ -97,19 +83,14 @@
     "footerNavigation": "Footer navigation",
     "homeLink": "Golden Crane home",
     "languageSwitcher": "Choose language",
-    "german": "German",
-    "english": "English",
     "switchToGerman": "Switch to German",
     "switchToEnglish": "Switch to English",
     "themeSwitcher": "Choose colour theme",
     "lightTheme": "Light theme",
     "darkTheme": "Dark theme",
-    "switchToLight": "Switch to light theme",
-    "switchToDark": "Switch to dark theme",
     "openNavigation": "Open main navigation",
     "closeNavigation": "Close main navigation",
     "menuItems": "Dishes in {category}",
-    "categoryLink": "View {category} category",
     "interiorImage": "Photograph of a warmly lit restaurant interior"
   },
   "metadata": {

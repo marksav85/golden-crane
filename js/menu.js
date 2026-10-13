@@ -4,7 +4,6 @@
   if (!container) return;
   const siteRoot = new URL("../", document.currentScript.src);
   const i18n = window.GoldenCraneI18n;
-  const modernLayout = container.dataset.menuLayout === "cards";
   const highlights = container.hasAttribute("data-menu-highlights");
   const overview = container.hasAttribute("data-menu-overview") || highlights;
   const overviewStatus = document.querySelector("[data-overview-status]");
@@ -27,29 +26,6 @@
     return node;
   }
   function createCard(item, index) {
-    if (modernLayout) return createModernCard(item, index);
-    const card = element("div", "menu-item-tile col-md-6");
-    card.id = item.id;
-    const row = element("div", "row");
-    const media = element("div", "col-sm-5");
-    const photo = element("div", "menu-item-photo");
-    const image = element("img", "img-responsive");
-    image.width = 250;
-    image.height = 150;
-    image.src = new URL(item.image, siteRoot).href;
-    photo.append(element("div", "", item.code), image);
-    const price = element("div", "menu-item-price");
-    media.append(photo, price);
-    const description = element("div", "menu-item-description col-sm-7");
-    const title = element("h3", "menu-item-title");
-    const details = element("p", "menu-item-details");
-    description.append(title, details);
-    row.append(media, description);
-    card.append(row, element("hr", "visible-xs"));
-    cards.push({ item, image, price, title, details });
-    return card;
-  }
-  function createModernCard(item, index) {
     const card = element("article", "gc-menu-card");
     card.id = item.id;
     card.setAttribute("aria-labelledby", `${item.id}-title`);
@@ -82,7 +58,7 @@
       }
       return;
     }
-    const message = element("p", modernLayout ? "gc-menu-status" : "text-center", translate(key));
+    const message = element("p", "gc-menu-status", translate(key));
     message.setAttribute("role", key === "menu.error" ? "alert" : "status");
     container.replaceChildren(message);
   }
@@ -123,6 +99,9 @@
   document.addEventListener("goldencrane:languagechange", updateText);
   async function loadMenu() {
     container.setAttribute("aria-busy", "true");
+    // Keep content below long menus out of the initial viewport while JSON loads.
+    const fallbackCount = parseInt(document.querySelector("[data-category-count]")?.textContent, 10);
+    container.classList.toggle("gc-menu-grid--loading", !overview && fallbackCount > 3);
     try {
       await i18n?.ready;
       showStatus("menu.loading");
@@ -158,6 +137,7 @@
       failed = true;
       showStatus("menu.error");
     } finally {
+      container.classList.remove("gc-menu-grid--loading");
       container.setAttribute("aria-busy", "false");
     }
   }

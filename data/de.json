@@ -8,10 +8,7 @@
   "navigation": {
     "home": "Startseite",
     "menu": "Speisekarte",
-    "about": "Über uns",
-    "location": "Standort",
-    "openMenu": "Menü öffnen",
-    "closeMenu": "Menü schließen"
+    "about": "Über uns"
   },
   "home": {
     "eyebrow": "Eine kulinarische Reise",
@@ -37,13 +34,9 @@
     "introduction": "153 Gerichte in zwölf Kategorien – inspiriert von asiatischen Reisezielen und kulinarischer Vielfalt.",
     "categoryLink": "Kategorie ansehen",
     "backToOverview": "Zurück zur Speisekarte",
-    "categoryNavigation": "Menükategorien",
     "itemCount": "{count} Gerichte",
-    "categoryPosition": "Kategorie {current} von {total}",
-    "priceFrom": "ab {price}",
     "loading": "Speisekarte wird geladen …",
-    "error": "Die Speisekarte konnte nicht geladen werden. Bitte lade die Seite neu oder versuche es später noch einmal.",
-    "javascriptRequired": "Bitte aktiviere JavaScript, um die Gerichte dieser Kategorie anzusehen."
+    "error": "Die Speisekarte konnte nicht geladen werden. Bitte lade die Seite neu oder versuche es später noch einmal."
   },
   "about": {
     "eyebrow": "Das Konzept",
@@ -70,26 +63,19 @@
     "location": "Halberstädter Straße, Magdeburg",
     "description": "Asian Fusion in Magdeburg, inspiriert von der kulinarischen Vielfalt Asiens.",
     "mapLink": "Halberstädter Straße auf Google Maps ansehen",
-    "mapTitle": "Google Maps: Halberstädter Straße, Magdeburg",
-    "projectHeading": "Unsere Küche",
-    "summary": "Entdecke Wokgerichte, Sushi und weitere asiatisch inspirierte Gerichte.",
-    "menuInvitation": "Unsere Speisekarte umfasst zwölf Kategorien – von Vorspeisen bis Desserts."
+    "mapTitle": "Google Maps: Halberstädter Straße, Magdeburg"
   },
   "footer": {
     "description": "Asian Fusion in Magdeburg, inspiriert von Aromen und Reisezielen in Asien.",
-    "navigationHeading": "Navigation",
-    "locationHeading": "Standort",
-    "projectHeading": "Über dieses Projekt",
-    "copyright": "© {year} Golden Crane."
+    "navigationHeading": "Navigation"
   },
   "notices": {
     "projectHeading": "Über dieses Projekt",
     "fictional": "Golden Crane ist ein fiktives Restaurant, das als Webentwicklungsprojekt gestaltet wurde.",
     "noService": "Es handelt sich nicht um einen realen Gastronomiebetrieb.",
-    "menuIllustrative": "Namen, Beschreibungen und Bilder geben einen Einblick in die Speisekarte.",
-    "priceDemo": "Alle Preise in Euro.",
     "allergenHeading": "Hinweis zu Zutaten & Allergenen",
-    "allergenDescription": "Zutaten und Allergeninformationen lassen sich nicht verlässlich aus Gerichtsnamen, Beschreibungen oder Bildern ableiten."
+    "allergenDescription": "Zutaten und Allergeninformationen lassen sich nicht verlässlich aus Gerichtsnamen, Beschreibungen oder Bildern ableiten.",
+    "pricesInEuros": "Alle Preise in Euro."
   },
   "accessibility": {
     "skipToContent": "Zum Hauptinhalt springen",
@@ -97,19 +83,14 @@
     "footerNavigation": "Footernavigation",
     "homeLink": "Golden Crane – zur Startseite",
     "languageSwitcher": "Sprache auswählen",
-    "german": "Deutsch",
-    "english": "Englisch",
     "switchToGerman": "Auf Deutsch wechseln",
     "switchToEnglish": "Auf Englisch wechseln",
     "themeSwitcher": "Farbschema auswählen",
     "lightTheme": "Helles Farbschema",
     "darkTheme": "Dunkles Farbschema",
-    "switchToLight": "Zum hellen Farbschema wechseln",
-    "switchToDark": "Zum dunklen Farbschema wechseln",
     "openNavigation": "Hauptnavigation öffnen",
     "closeNavigation": "Hauptnavigation schließen",
     "menuItems": "Gerichte der Kategorie {category}",
-    "categoryLink": "Kategorie {category} ansehen",
     "interiorImage": "Foto eines warm beleuchteten Restaurantinnenraums"
   },
   "metadata": {
