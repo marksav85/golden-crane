@@ -205,27 +205,9 @@
             >
           </div>
         </div>
-        <figure class="gc-home-hero__photo">
-          <img
-            class="gc-editorial-image"
-            src="images/jumbotron_1200.jpg"
-            srcset="
-              images/jumbotron_768.jpg   768w,
-              images/jumbotron_992.jpg   992w,
-              images/jumbotron_1200.jpg 1200w
-            "
-            sizes="(min-width: 900px) 560px, (min-width: 600px) 80vw, 100vw"
-            width="1200"
-            height="675"
-            alt="Foto eines warm beleuchteten Restaurantinnenraums"
-            data-i18n-alt="accessibility.interiorImage"
-            fetchpriority="high"
-            decoding="async"
-          />
-          <figcaption data-i18n="home.imageCaption">
-            Atmosphäre als Inspiration.
-          </figcaption>
-        </figure>
+        <div class="gc-home-hero__visual" aria-hidden="true">
+          <span class="gc-home-hero__symbol"></span>
+        </div>
       </section>
       <section class="gc-band" aria-labelledby="home-concept-title">
         <div class="gc-container gc-content-section">
