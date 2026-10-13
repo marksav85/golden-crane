@@ -2,160 +2,109 @@
 <html lang="de" data-page="category">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="../../js/theme.js"></script>
     <script src="../../js/i18n.js" defer></script>
     <title>Gemüsegerichte | Golden Crane – Demokarte</title>
     <meta name="description" content="Entdecke Gemüsegerichte in der fiktiven Speisekarte von Golden Crane. Asiatisch inspirierte Menüideen mit Beispielpreisen." />
     <link rel="icon" type="image/x-icon" href="../../images/favicon.ico" />
-    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="../../css/golden-crane.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&amp;family=Plus+Jakarta+Sans:wght@400;600&amp;display=swap" rel="stylesheet" />
+    <script src="../../js/navigation.js" defer></script>
   </head>
-  <body>
-    <header lang="en">
-      <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="../../index.html" class="pull-left visible-md visible-lg">
-              <div id="logo-img"></div>
-            </a>
-
-            <div class="navbar-brand">
-              <a href="../../index.html"><h1>John Choo's China Bistro</h1></a>
-              <p>
-                <img
-                  src="../../images/star-k-logo.png"
-                  alt="Kosher certification"
-                />
-                <span>Kosher Certified</span>
-              </p>
-            </div>
-
-            <button
-              type="button"
-              class="navbar-toggle collapsed"
-              data-toggle="collapse"
-              data-target="#collapsable-nav"
-              aria-expanded="false"
-            >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+  <body class="gc-page">
+    <a class="gc-skip-link" href="#main-content" data-i18n="accessibility.skipToContent">Zum Hauptinhalt springen</a>
+    <header class="gc-header" data-gc-header>
+      <div class="gc-container gc-header__inner">
+        <a class="gc-brand" href="../../index.html" aria-label="Golden Crane – zur Startseite" data-i18n-aria-label="accessibility.homeLink">
+          <span class="gc-brand__name" data-i18n="brand.name">Golden Crane</span>
+          <span class="gc-brand__tagline" data-i18n="brand.tagline">Asian Fusion · Magdeburg</span>
+        </a>
+        <div class="gc-controls">
+          <div class="gc-switch" role="group" aria-label="Sprache auswählen" data-i18n-aria-label="accessibility.languageSwitcher">
+            <button class="gc-control" type="button" data-language="de" aria-pressed="true" aria-label="Auf Deutsch wechseln" data-i18n-aria-label="accessibility.switchToGerman" lang="de">DE</button>
+            <button class="gc-control" type="button" data-language="en" aria-pressed="false" aria-label="Auf Englisch wechseln" data-i18n-aria-label="accessibility.switchToEnglish" lang="en">EN</button>
+          </div>
+          <div class="gc-switch" role="group" aria-label="Farbschema auswählen" data-i18n-aria-label="accessibility.themeSwitcher">
+            <button class="gc-control" type="button" data-theme-choice="light" aria-pressed="false" aria-label="Helles Farbschema" data-i18n-aria-label="accessibility.lightTheme">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+            </button>
+            <button class="gc-control" type="button" data-theme-choice="dark" aria-pressed="false" aria-label="Dunkles Farbschema" data-i18n-aria-label="accessibility.darkTheme">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M20 15a8.5 8.5 0 0 1-11-11A8.5 8.5 0 1 0 20 15Z"/></svg>
             </button>
           </div>
-          <div id="collapsable-nav" class="collapse navbar-collapse">
-            <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li class="visible-xs active">
-                <a href="../../index.html">
-                  <span class="glyphicon glyphicon-home"></span> Home</a
-                >
-              </li>
-              <li>
-                <a href="../menu-categories.html">
-                  <span class="glyphicon glyphicon-cutlery"></span
-                  ><br class="hidden-xs" />
-                  Menu</a
-                >
-              </li>
-              <li>
-                <a href="../about.html">
-                  <span class="glyphicon glyphicon-info-sign"></span
-                  ><br class="hidden-xs" />
-                  About</a
-                >
-              </li>
-              <li>
-                <a href="../awards.html">
-                  <span class="glyphicon glyphicon-certificate"></span
-                  ><br class="hidden-xs" />
-                  Awards</a
-                >
-              </li>
-              <li id="phone" class="hidden-xs">
-                <a href=""> <span>312-602-5008</span></a>
-                <div>* We Deliver</div>
-              </li>
-            </ul>
-            <!-- #nav-list -->
-          </div>
-          <!-- .collapse .navbar-collapse -->
+          <button class="gc-control" type="button" data-navigation-toggle aria-controls="gc-navigation" aria-expanded="false" aria-label="Hauptnavigation öffnen" data-i18n-aria-label="accessibility.openNavigation" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
         </div>
-      </nav>
+        <nav class="gc-navigation" id="gc-navigation" data-navigation aria-label="Hauptnavigation" data-i18n-aria-label="accessibility.primaryNavigation">
+          <ul class="gc-navigation__list">
+            <li><a href="../../index.html" data-i18n="navigation.home">Startseite</a></li>
+            <li><a href="../menu-categories.html" aria-current="location" data-i18n="navigation.menu">Speisekarte</a></li>
+            <li><a href="../about.html" data-i18n="navigation.about">Über uns</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div id="call-btn" class="visible-xs" lang="en">
-      <a class="btn" href="">
-        <span class="glyphicon glyphicon-earphone"></span>
-        312-602-5008
-      </a>
-    </div>
-    <div id="xs-deliver" class="text-center visible-xs" lang="en">* We Deliver</div>
+    <main id="main-content" class="gc-container gc-category" tabindex="-1">
+      <header class="gc-category__introduction">
+        <a class="gc-back-link" href="../menu-categories.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="m10 5-7 7 7 7M3 12h18"/></svg>
+          <span data-i18n="menu.backToOverview">Zurück zur Speisekarte</span>
+        </a>
+        <div class="gc-category__eyebrow">
+          <span data-i18n="brand.cuisine">Asian Fusion</span>
+          <span class="gc-category__dot" aria-hidden="true"></span>
+          <span data-category-count>11 Gerichte</span>
+        </div>
+        <h1 id="menu-categories-title" class="gc-heading gc-category__heading">Gemüsegerichte</h1>
+        <p class="gc-introduction" data-category-introduction>Gemüsegerichtegerichte mit Gemüse und Saucen, inspiriert von Reisezielen in Asien.</p>
+        <p class="gc-category__price-notice" data-i18n="notices.priceDemo">Alle Preise sind fiktive Beispielpreise in Euro.</p>
+      </header>
 
-    <!-- Start of #main-content -->
-    <div id="main-content" class="container">
-      <h2 id="menu-categories-title" class="text-center">Gemüsegerichte</h2>
-      <div class="text-center" data-i18n="notices.priceDemo">Alle Preise sind fiktive Beispielpreise in Euro.</div>
-
-      <section class="row" data-category="veggie" aria-busy="true">
-        <p class="text-center" role="status" data-i18n="menu.loading">Speisekarte wird geladen …</p>
+      <section class="gc-menu-grid" data-category="veggie" data-menu-layout="cards" aria-label="Gerichte der Kategorie Gemüsegerichte" aria-busy="true">
+        <p class="gc-menu-status" role="status" data-i18n="menu.loading">Speisekarte wird geladen …</p>
         <noscript>Bitte aktiviere JavaScript, um die Gerichte dieser Kategorie anzusehen.</noscript>
       </section>
-    </div>
-    <!-- End of #main-content -->
 
-    <footer class="panel-footer" lang="en">
-      <div class="container">
-        <div class="row">
-          <section id="hours" class="col-sm-4">
-            <span>Hours:</span><br />
-            Sun-Thurs: 11:15am - 10:00pm<br />
-            Fri: 11:15am - 2:30pm<br />
-            Saturday Closed
-            <hr class="visible-xs" />
-          </section>
-          <section id="address" class="col-sm-4">
-            <span>Address:</span><br />
-            568 W Adams St<br />
-            Chicago, IL 60661
-            <p>
-              * Delivery area within 3-4 miles, with minimum order of $20 plus
-              $3 charge for all deliveries.
-            </p>
-            <hr class="visible-xs" />
-          </section>
-          <section id="testimonials" class="col-sm-4">
-            <p>
-              "The best Chinese restaurant I've been to! And that's saying a
-              lot, since I've been to many!"
-            </p>
-            <p>
-              "Amazing food! Great service! Couldn't ask for more! I'll be back
-              again and again!"
-            </p>
-          </section>
-        </div>
-        <div class="text-center">
-          &copy; Copyright John Choo's China Bistro 2021
-        </div>
+      <div class="gc-category__return">
+        <a class="gc-back-link" href="../menu-categories.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="m10 5-7 7 7 7M3 12h18"/></svg>
+          <span data-i18n="menu.backToOverview">Zurück zur Speisekarte</span>
+        </a>
+      </div>
+      <aside class="gc-menu-notice" aria-labelledby="gc-allergen-heading">
+        <h2 id="gc-allergen-heading" class="gc-menu-notice__heading" data-i18n="notices.allergenHeading">Hinweis zu Zutaten &amp; Allergenen</h2>
+        <p data-i18n="notices.allergenDescription">Die Demokarte enthält keine verifizierten Zutatenlisten oder Allergenangaben. Aus Namen, Beschreibungen und Fotos lassen sich keine verlässlichen Aussagen zu Allergenen oder Ernährungsformen ableiten.</p>
+      </aside>
+    </main>
+
+    <footer class="gc-footer">
+      <div class="gc-container gc-footer__grid">
+        <section>
+          <h2 class="gc-footer__heading" data-i18n="brand.name">Golden Crane</h2>
+          <p data-i18n="footer.description">Ein fiktives Asian-Fusion-Konzept in Magdeburg, gestaltet als Webentwicklungs-Demoprojekt.</p>
+          <p data-i18n="brand.location">Magdeburg, Deutschland</p>
+        </section>
+        <nav aria-label="Footernavigation" data-i18n-aria-label="accessibility.footerNavigation">
+          <h2 class="gc-footer__heading" data-i18n="footer.navigationHeading">Navigation</h2>
+          <ul class="gc-footer__links">
+            <li><a class="gc-link" href="../../index.html" data-i18n="navigation.home">Startseite</a></li>
+            <li><a class="gc-link" href="../menu-categories.html" data-i18n="navigation.menu">Speisekarte</a></li>
+            <li><a class="gc-link" href="../about.html" data-i18n="navigation.about">Über uns</a></li>
+          </ul>
+        </nav>
+        <section>
+          <h2 class="gc-footer__heading" data-i18n="notices.projectHeading">Hinweis zum Projekt</h2>
+          <p data-i18n="notices.fictional">Golden Crane ist ein fiktives Restaurant, das als Webentwicklungs-Demoprojekt erstellt wurde.</p>
+          <p data-i18n="notices.noService">Es gibt keinen realen Restaurantbetrieb und keine Möglichkeit zur Reservierung, Bestellung oder Lieferung.</p>
+        </section>
       </div>
     </footer>
     <script src="../../js/menu.js" defer></script>
 
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="../../js/jquery-2.1.4.min.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/script.js"></script>
   </body>
 </html>

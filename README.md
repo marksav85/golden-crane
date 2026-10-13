@@ -127,3 +127,27 @@ photographs use native lazy loading with reserved aspect ratios.
 The pilot includes translated overview links at the top and bottom, the actual
 item count, localized introduction and demonstration pricing/allergen notices.
 Phase 4 can reuse this opt-in layout across the remaining categories after review.
+
+## Phase 4: complete menu migration
+
+All twelve category routes now use the approved Beef template and shared
+`data-menu-layout="cards"` renderer. `pages/menu-categories.html` uses the same
+header, footer, typography, language/theme controls and a 1/2/4-column overview.
+All thirteen menu pages are independent of Bootstrap, jQuery, legacy CSS and
+lazysizes. The homepage, About and Awards pages still use their original assets;
+those files and vendor dependencies remain in place.
+
+The overview includes German category cards directly in HTML so links, names,
+introductions and images remain available without JavaScript. Its
+`data-menu-overview` section lets the existing `js/menu.js` load the authoritative
+dataset once and update existing names, introductions, counts and image alt text
+on language changes. Photographs and links are retained rather than rebuilt.
+If loading fails, an explanatory translated message appears while the German
+fallback cards remain usable. Keep fallback card content synchronized with the
+corresponding category when editing the dataset.
+
+Overview photographs are capped at their original 200 × 200 CSS-pixel size;
+the first four load eagerly and the others use native lazy loading. Original
+photographs and all item data are unchanged. Next: migrate the homepage and
+About content, then retire the Awards route and remove unused dependencies only
+when the remaining legacy pages no longer need them.

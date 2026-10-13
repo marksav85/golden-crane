@@ -1,15 +1,18 @@
 (() => {
   "use strict";
-  const container = document.querySelector("#main-content section[data-category]");
+  const container = document.querySelector("#main-content section[data-category], [data-menu-overview]");
   if (!container) return;
   const siteRoot = new URL("../", document.currentScript.src);
   const i18n = window.GoldenCraneI18n;
   const modernLayout = container.dataset.menuLayout === "cards";
+  const overview = container.hasAttribute("data-menu-overview");
+  const overviewStatus = document.querySelector("[data-overview-status]");
   const fallbacks = {
     "menu.loading": "Speisekarte wird geladen …",
     "menu.error": "Die Speisekarte konnte nicht geladen werden. Bitte lade die Seite neu oder versuche es später noch einmal.",
   };
   let category;
+  let categories;
   let failed = false;
   let cards = [];
   function localized(value) {
@@ -70,12 +73,34 @@
     return card;
   }
   function showStatus(key) {
+    if (overview) {
+      if (overviewStatus) {
+        overviewStatus.hidden = false;
+        overviewStatus.textContent = translate(key);
+        overviewStatus.setAttribute("role", key === "menu.error" ? "alert" : "status");
+      }
+      return;
+    }
     const message = element("p", modernLayout ? "gc-menu-status" : "text-center", translate(key));
     message.setAttribute("role", key === "menu.error" ? "alert" : "status");
     container.replaceChildren(message);
   }
   function updateText() {
     if (failed) { showStatus("menu.error"); return; }
+    if (overview) {
+      if (!categories) { showStatus("menu.loading"); return; }
+      container.querySelectorAll("[data-category-card]").forEach(card => {
+        const data = categories.find(({ id }) => id === card.dataset.categoryCard);
+        const name = localized(data.name);
+        card.lang = i18n?.language || "de";
+        card.querySelector("[data-overview-name]").textContent = name;
+        card.querySelector("[data-overview-introduction]").textContent = localized(data.introduction);
+        card.querySelector("[data-overview-count]").textContent = i18n?.t("menu.itemCount", { count: data.items.length }, `${data.items.length} Gerichte`) || `${data.items.length} Gerichte`;
+        card.querySelector("img").alt = name;
+      });
+      if (overviewStatus) overviewStatus.hidden = true;
+      return;
+    }
     if (!category) { showStatus("menu.loading"); return; }
     const priceFormatter = new Intl.NumberFormat(i18n?.language === "en" ? "en-IE" : "de-DE", { style: "currency", currency: "EUR" });
     for (const { item, image, price, title, details } of cards) {
@@ -96,12 +121,23 @@
   }
   document.addEventListener("goldencrane:languagechange", updateText);
   async function loadMenu() {
+    container.setAttribute("aria-busy", "true");
     try {
       await i18n?.ready;
       showStatus("menu.loading");
       const response = await fetch(new URL("data/menu.json", siteRoot));
       if (!response.ok) throw new Error("Menu request failed");
       const data = await response.json();
+      if (overview) {
+        const categoryCards = Array.from(container.querySelectorAll("[data-category-card]"));
+        if (data.currency !== "EUR" || !Array.isArray(data.categories) || data.categories.length !== categoryCards.length || !categoryCards.every(card => {
+          const entry = data.categories.find(({ id }) => id === card.dataset.categoryCard);
+          return entry && localized(entry.name) && localized(entry.introduction) && Array.isArray(entry.items) && entry.items.length;
+        })) throw new Error("Menu categories unavailable");
+        categories = data.categories;
+        updateText();
+        return;
+      }
       const selected = data.categories?.find(({ id }) => id === container.dataset.category);
       if (data.currency !== "EUR" || !selected || !Array.isArray(selected.items) || !selected.items.length || !localized(selected.name)) {
         throw new Error("Menu category unavailable");

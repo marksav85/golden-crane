@@ -136,3 +136,30 @@ body.gc-page {
 @media (min-width: 1100px) {
   .gc-menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 }
+
+/* Menu overview: preserve the category photographs at their native 200px size. */
+.gc-menu-overview { padding-block: clamp(28px, 4vw, 56px) 48px; }
+.gc-menu-overview__introduction { text-align: center; margin-bottom: 32px; padding-bottom: 28px; border-bottom: 1px solid var(--gc-border); }
+.gc-menu-overview__introduction .gc-category__eyebrow { justify-content: center; margin-top: 0; }
+.gc-menu-overview__introduction .gc-introduction { margin: 0 auto; font-size: 17px; }
+.gc-category-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; }
+.gc-category-card { min-width: 0; background: var(--gc-surface); border: 1px solid var(--gc-border); border-radius: var(--gc-radius); }
+.gc-category-card__link { display: flex; flex-direction: column; height: 100%; color: var(--gc-text); text-decoration: none; border-radius: var(--gc-radius); }
+.gc-category-card__link:hover { color: var(--gc-text); }
+.gc-category-card__photo { width: 200px; max-width: calc(100% - 40px); aspect-ratio: 1; margin: 20px auto 0; overflow: hidden; border-radius: 5px; }
+.gc-category-card__photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.gc-category-card__content { display: flex; flex: 1; flex-direction: column; padding: 20px; }
+.gc-category-card__count { margin: 0 0 8px; color: var(--gc-muted); font-size: 12px; }
+.gc-category-card__title { margin: 0 0 12px; font: 500 24px/1.3 var(--gc-font-heading); color: var(--gc-text); overflow-wrap: anywhere; }
+.gc-category-card__description { margin: 0 0 20px; color: var(--gc-muted); font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.gc-category-card__action { display: flex; align-items: center; gap: 10px; margin-top: auto; color: var(--gc-accent); font-size: 13px; font-weight: 600; }
+.gc-category-card__action svg { flex-shrink: 0; width: 18px; height: 18px; }
+.gc-category-card__link:hover .gc-category-card__action { text-decoration: underline; text-underline-offset: 4px; }
+.gc-menu-overview .gc-menu-notice { margin-top: 32px; }
+.gc-menu-overview .gc-menu-status:not([hidden]) { margin-bottom: 24px; }
+@media (min-width: 600px) {
+  .gc-category-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1100px) {
+  .gc-category-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
