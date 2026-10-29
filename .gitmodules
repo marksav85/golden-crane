@@ -1,3 +1,4 @@
 [submodule "playbook"]
 	path = playbook
 	url = https://github.com/marksav85/msd-projects-playbook.git
+	update = none
