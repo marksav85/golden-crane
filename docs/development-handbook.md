@@ -21,7 +21,6 @@ This handbook describes current source. It does not reconstruct the original imp
 | `data/` | Menu dataset and shared translation dictionaries |
 | `images/` | Dish/category photographs, responsive interior images, crane and favicon SVGs |
 | `tests/verify.mjs` | Offline structural verification using Node built-ins |
-| `playbook/` | Pinned reference submodule; not an application dependency |
 
 Pages use German initial markup, `lang="de"`, a `data-page` metadata identifier and shared classes. Full pages repeat header/footer markup: there is no template compilation. When changing shared navigation, update every affected page. The Awards page is a deliberately smaller compatibility page, not an automatic redirect; retain its historical route.
 
@@ -69,7 +68,7 @@ The current architecture keeps static deployment and native browser APIs, with n
 
 ## Recorded issues and verification
 
-The owner reported that deployment of `b015aaa` failed because Cloudflare attempted to clone the private Playbook. Commit `b0a3fb5` adds `update = none` in `.gitmodules`; a fresh-clone check verified that normal submodule initialization skips it. The owner subsequently reported successful deployment. This keeps private reference material outside deployment while preserving the local checkout and pin. The [runbook](operations-runbook.md#playbook-checkout) explains the required explicit developer initialization and its limitations. No other significant application incidents are established by the available finalization evidence.
+No significant application incidents are established by the available finalization evidence.
 
 Use a local HTTP server and run `node tests/verify.mjs`; prerequisites and commands are in the [runbook](operations-runbook.md#local-development-and-verification). The script checks menu integrity, translation parity/placeholders/references, HTML/CSS paths, category fallbacks and syntax of all four application scripts. It does not execute their behavior, fetch external services or measure performance. This dependency-free scope was explicitly approved for this stage.
 
@@ -79,8 +78,8 @@ Use a local HTTP server and run `node tests/verify.mjs`; prerequisites and comma
 - For localization changes, update both dictionaries, placeholders and German HTML fallbacks. New dynamically constructed translation keys require an explicit verification rule.
 - For new categories, add the JSON entry, photograph, category page and overview card; update totals and relevant highlights deliberately.
 - For shared UI changes, review every repeated page shell and recheck keyboard, themes and responsive behavior.
-- Keep the Playbook pin deliberate. Documentation and verification changes do not authorize framework adoption, new functionality or deployment changes.
+- Documentation and verification changes do not authorize framework adoption, new functionality or deployment changes.
 
 Ingredient/allergen information cannot be inferred reliably from the fictional names or photographs. There is no automated behavior suite or CI workflow. Deployment settings and recovery remain subject to the owner confirmations listed in the runbook. No additional feature work is approved here.
 
-Evidence sources are the maintained files listed above, the verification script, commits `b015aaa` / `b0a3fb5`, and the owner reports explicitly attributed in this document. Review these handbooks after a significant implementation phase; do not use them as daily task logs.
+Evidence sources are the maintained files listed above, the verification script and owner reports explicitly attributed in this document. Review these handbooks after a significant implementation phase; do not use them as daily task logs.

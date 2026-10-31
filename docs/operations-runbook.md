@@ -48,33 +48,15 @@ After changes affecting the site, record the environment, revision, viewport and
 
 Owner acceptance is separate from technical verification. Earlier acceptance is supplied; changes that could affect journeys or presentation need affected acceptance repeated. For performance changes, repeat mobile Lighthouse under consistent conditions and compare several runs; verify that the crane preload is reused and layout remains stable. Do not treat a previous score as a new result.
 
-## Playbook checkout
-
-The canonical private remote is `https://github.com/marksav85/msd-projects-playbook.git`; the current gitlink is pinned at `0569bab17c295a3220296aba5808a590b234ff4c`.
-
-The owner reported that Pages initially failed while cloning this private submodule. `.gitmodules` now sets `update = none`. A fresh local clone test confirmed that `git submodule update --init --recursive` skips Playbook without downloading it, and the owner subsequently reported deployment success. The website does not consume Playbook files. Keep the canonical URL, gitlink and skip setting intact; do not provide Pages with private GitHub credentials.
-
-For an authorized developer who needs the reference documents, from the project root:
-
-```bash
-git submodule update --init --checkout --recursive playbook
-git -C playbook sparse-checkout init --cone
-git -C playbook sparse-checkout set docs/templates/0-ai docs/templates/0-project-management docs/templates/1-pre-development docs/templates/2-development docs/templates/3-post-development
-git -C playbook rev-parse HEAD
-git -C playbook status --short
-```
-
-Private-repository access must already be authorized locally. Explicit `--checkout` overrides the skip default and uses the parent gitlink, not the latest upstream revision. It does not permanently replace the `none` update setting copied into a fresh clone's local Git configuration. Repeat the explicit command when synchronizing a changed pin. Sparse checkout is local and must be reapplied on other machines; detached HEAD is normal. Preserve existing local submodule work before synchronization. Do not edit reusable Playbook documents through this consumer checkout.
-
 ## Releases through Cloudflare Pages
 
-The existing GitHub integration has processed pushes to this repository, including the reported submodule failure and subsequent successful deployment. Current production-branch selection, build command, output directory, preview rules, environment variables/bindings and account permissions are dashboard-only facts not established by the source. The application needs no build step, but that does not establish the actual Pages settings.
+The existing GitHub integration has processed pushes to this repository. Current production-branch selection, build command, output directory, preview rules, environment variables/bindings and account permissions are dashboard-only facts not established by the source. The application needs no build step, but that does not establish the actual Pages settings.
 
 For an authorized release:
 
-1. Review the Git diff/status, run structural verification and complete affected browser acceptance. Confirm the intended commit and Playbook gitlink.
-2. Have the authorized operator confirm the connected repository, production branch, static output scope and release trigger in Pages before pushing. Ensure the deployment excludes private Playbook material and contains the public HTML, CSS, scripts, JSON and images. Do not assume a dashboard value from the local folder structure.
-3. Commit/push only with owner authorization. Observe the deployment logs and final revision/status in Pages. Check that submodule initialization skips Playbook; `update = none` can be overridden by an explicit checkout or local builder configuration.
+1. Review the Git diff/status, run structural verification and complete affected browser acceptance.
+2. Have the authorized operator confirm the connected repository, production branch, static output scope and release trigger in Pages before pushing. Confirm the deployment contains the public HTML, CSS, scripts, JSON and images. Do not assume a dashboard value from the local folder structure.
+3. Commit/push only with owner authorization. Observe the deployment logs and final revision/status in Pages.
 4. Verify the production URL over HTTPS, representative nested routes, menu/dictionary requests, images, themes, language selection and Maps. Record the deployed revision and outcomes separately from successful Git push output.
 
 There are no source-required application secrets or bindings to provision. If dashboard-only configuration exists, the operator must identify it and confirm preservation by the actual release method before making changes. Do not invent credentials, replace the deployment workflow or alter settings to follow this document.
@@ -95,11 +77,10 @@ For shared translations, update [data/de.json](../data/de.json) and [data/en.jso
 | Nested page loses assets | Compare relative HTML paths and script-derived root URLs; check case-sensitive filenames and CSS-relative assets. | Run verifier and load the nested route directly. |
 | Crane is missing or downloaded twice | Inspect SVG response, CSS mask and preload URL/fetch compatibility; preserve anonymous CORS and theme coloring. | Inspect network and both themes. |
 | Fonts or Maps fail | Inspect provider requests, network/content blockers and policy errors. Do not replace the verified Maps URL merely because an external request fails. | Check fallback fonts and retry Maps, including its street link. |
-| Pages fails while cloning Playbook | Review clone logs and deployed `.gitmodules`; confirm `update = none` and whether the builder explicitly overrides it. Escalate to the operator if standard skip behavior is bypassed. | Confirm checkout skips Playbook, then retry only with authorization. |
 
 ## Recovery, access and outstanding facts
 
-Git tracks website source and the Playbook pointer, not Cloudflare/DNS configuration or the private Playbook contents. Ignored Stitch references are not backed up by the website repository. There is no application database to restore. Provider configuration and access recovery need separate owner-managed records.
+Git tracks website source, not Cloudflare/DNS configuration. Ignored Stitch references are not backed up by the website repository. There is no application database to restore. Provider configuration and access recovery need separate owner-managed records.
 
 No production rollback or restore procedure has been tested here. Before a consequential release, the operator must establish the available recovery path and permissions. For source regression, review a known-good revision and propose a targeted revert/new corrective commit through the normal approval process; do not reset shared history. A provider rollback is only an option after the operator confirms it is available and suitable. Re-run local checks and the production smoke check after any authorized recovery.
 
